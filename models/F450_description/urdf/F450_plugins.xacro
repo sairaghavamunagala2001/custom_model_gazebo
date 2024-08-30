@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Add plugins for joint Revolute 1 -->
+    <xacro:macro name="add_revolute1_plugin" params="">
+        <gazebo>
+            <plugin name="joint_control" filename="libgazebo_ros_joint.so">
+                <ros>
+                    <namespace>/revolute_1</namespace>
+                    <remapping>cmd_vel:=/revolute_1/command</remapping>
+                </ros>
+                <joint>Revolute 1</joint>
+                <control_type>velocity</control_type>
+            </plugin>
+        </gazebo>
+    </xacro:macro>
+
+    <!-- Add similar plugins for other joints -->
+    <xacro:macro name="add_revolute2_plugin" params="">
+        <gazebo>
+            <plugin name="joint_control" filename="libgazebo_ros_joint.so">
+                <ros>
+                    <namespace>/revolute_2</namespace>
+                    <remapping>cmd_vel:=/revolute_2/command</remapping>
+                </ros>
+                <joint>Revolute 2</joint>
+                <control_type>velocity</control_type>
+            </plugin>
+        </gazebo>
+    </xacro:macro>
+
+    <xacro:macro name="add_revolute3_plugin" params="">
+        <gazebo>
+            <plugin name="joint_control" filename="libgazebo_ros_joint.so">
+                <ros>
+                    <namespace>/revolute_3</namespace>
+                    <remapping>cmd_vel:=/revolute_3/command</remapping>
+                </ros>
+                <joint>Revolute 3</joint>
+                <control_type>velocity</control_type>
+            </plugin>
+        </gazebo>
+    </xacro:macro>
+
+    <xacro:macro name="add_revolute4_plugin" params="">
+        <gazebo>
+            <plugin name="joint_control" filename="libgazebo_ros_joint.so">
+                <ros>
+                    <namespace>/revolute_4</namespace>
+                    <remapping>cmd_vel:=/revolute_4/command</remapping>
+                </ros>
+                <joint>Revolute 4</joint>
+                <control_type>velocity</control_type>
+            </plugin>
+        </gazebo>
+    </xacro:macro>
+
+</robot>
+

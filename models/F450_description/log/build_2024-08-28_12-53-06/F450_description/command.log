@@ -1,0 +1,2 @@
+Invoking command in '/home/fwd/ros2_ws/src/F450_description/build/F450_description': /usr/bin/cmake /home/fwd/ros2_ws/src/F450_description -DCMAKE_INSTALL_PREFIX=/home/fwd/ros2_ws/src/F450_description/install/F450_description
+Invoked command in '/home/fwd/ros2_ws/src/F450_description/build/F450_description' returned '1': /usr/bin/cmake /home/fwd/ros2_ws/src/F450_description -DCMAKE_INSTALL_PREFIX=/home/fwd/ros2_ws/src/F450_description/install/F450_description

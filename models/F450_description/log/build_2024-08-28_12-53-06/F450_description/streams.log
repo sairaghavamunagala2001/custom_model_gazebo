@@ -1,0 +1,108 @@
+[0.011s] Invoking command in '/home/fwd/ros2_ws/src/F450_description/build/F450_description': /usr/bin/cmake /home/fwd/ros2_ws/src/F450_description -DCMAKE_INSTALL_PREFIX=/home/fwd/ros2_ws/src/F450_description/install/F450_description
+[0.154s] [0mBuilding F450_description as an `ament_cmake` project.[0m
+[0.158s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.158s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.158s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.158s]   problems in calling code that expects `find_package` result variables
+[0.158s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.158s] Call Stack (most recent call first):
+[0.158s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.158s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.158s]   CMakeLists.txt:177 (find_package)
+[0.158s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.159s] [0m
+[0.178s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.205s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.207s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.211s] -- Searching for dependencies of ignition-math6
+[0.212s] -- Looking for OGRE...
+[0.217s] -- Found Ogre Ghadamon (1.9.0)
+[0.217s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.226s] -- Looking for OGRE_Paging...
+[0.226s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.226s] -- Looking for OGRE_Terrain...
+[0.226s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.226s] -- Looking for OGRE_Property...
+[0.226s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.226s] -- Looking for OGRE_RTShaderSystem...
+[0.227s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.227s] -- Looking for OGRE_Volume...
+[0.227s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.227s] -- Looking for OGRE_Overlay...
+[0.227s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.332s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.333s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.333s] -- Searching for dependencies of ignition-transport8
+[0.350s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.361s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.365s] -- Checking for module 'libzmq >= 4'
+[0.376s] --   Found libzmq , version 4.3.4
+[0.409s] -- Checking for module 'uuid'
+[0.420s] --   Found uuid, version 2.37.2
+[0.449s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.450s] -- Searching for dependencies of ignition-msgs5
+[0.468s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.473s] -- Checking for module 'tinyxml2'
+[0.483s] --   Found tinyxml2, version 9.0.0
+[0.510s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.510s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.511s] -- Searching for dependencies of ignition-common3
+[0.511s] -- Looking for dlfcn.h - found
+[0.511s] -- Looking for libdl - found
+[0.521s] -- Searching for <ignition-common3> component [graphics]
+[0.521s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.522s] -- Searching for dependencies of ignition-common3-graphics
+[0.522s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.523s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.523s] -- Searching for dependencies of ignition-fuel_tools4
+[0.557s] -- Checking for module 'jsoncpp'
+[0.568s] --   Found jsoncpp, version 1.9.5
+[0.599s] -- Checking for module 'libzip'
+[0.610s] --   Found libzip, version 1.7.3
+[0.639s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.639s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.639s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.641s] -- Compiling against Gazebo Harmonic
+[0.641s] -- RapidJSON found. Headers: /usr/include
+[0.697s] WARNING: Package name "F450_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.715s] -- Configuring done
+[0.718s] [31mCMake Error at CMakeLists.txt:204 (add_library):
+[0.718s]   Target "ArduPilotPlugin" links to target "gazebo::gazebo" but the target
+[0.719s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.719s]   target, or an ALIAS target is missing?
+[0.719s] 
+[0.719s] [0m
+[0.719s] [31mCMake Error at CMakeLists.txt:217 (add_library):
+[0.719s]   Target "ParachutePlugin" links to target "gazebo::gazebo" but the target
+[0.719s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.719s]   target, or an ALIAS target is missing?
+[0.719s] 
+[0.719s] [0m
+[0.719s] [31mCMake Error at CMakeLists.txt:228 (add_library):
+[0.719s]   Target "CameraZoomPlugin" links to target "gazebo_common::gazebo_common"
+[0.720s]   but the target was not found.  Perhaps a find_package() call is missing for
+[0.720s]   an IMPORTED target, or an ALIAS target is missing?
+[0.720s] 
+[0.720s] [0m
+[0.720s] [31mCMake Error at CMakeLists.txt:228 (add_library):
+[0.720s]   Target "CameraZoomPlugin" links to target
+[0.720s]   "gazebo_rendering::gazebo_rendering" but the target was not found.  Perhaps
+[0.720s]   a find_package() call is missing for an IMPORTED target, or an ALIAS target
+[0.720s]   is missing?
+[0.720s] 
+[0.720s] [0m
+[0.720s] [31mCMake Error at CMakeLists.txt:228 (add_library):
+[0.721s]   Target "CameraZoomPlugin" links to target "gazebo::gazebo" but the target
+[0.721s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.721s]   target, or an ALIAS target is missing?
+[0.721s] 
+[0.721s] [0m
+[0.721s] [31mCMake Error at CMakeLists.txt:241 (add_library):
+[0.721s]   Target "GstCameraPlugin" links to target "gazebo::gazebo" but the target
+[0.721s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.721s]   target, or an ALIAS target is missing?
+[0.721s] 
+[0.721s] [0m
+[0.727s] -- Generating done
+[0.728s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.735s] Invoked command in '/home/fwd/ros2_ws/src/F450_description/build/F450_description' returned '1': /usr/bin/cmake /home/fwd/ros2_ws/src/F450_description -DCMAKE_INSTALL_PREFIX=/home/fwd/ros2_ws/src/F450_description/install/F450_description

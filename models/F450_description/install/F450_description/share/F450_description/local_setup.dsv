@@ -1,0 +1,4 @@
+source;share/F450_description/environment/F450_description.sh
+source;share/F450_description/environment/ament_prefix_path.sh
+source;share/F450_description/environment/path.sh
+source;share/F450_description/environment/F450_description.dsv

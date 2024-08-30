@@ -1,0 +1,59 @@
+<sdf version='1.11'>
+  <model name='F450'>
+    <link name='base_link'>
+      <inertial>
+        <pose>-1.054264181030751e-07 0.0025919260853499888 -0.026708763818450769 0 0 0</pose>
+        <mass>2.165049907987274</mass>
+        <inertia>
+          <ixx>0.024339</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.043381999999999997</iyy>
+          <iyz>-3.9999999999999998e-06</iyz>
+          <izz>0.02453</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/fwd/ros2_ws/install/F450_description/share/F450_description/meshes/base_link.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>0.20000000000000001</mu>
+              <mu2>0.20000000000000001</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>file:///home/fwd/ros2_ws/install/F450_description/share/F450_description/meshes/base_link.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Silver</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+          <diffuse>0.875 0.875 0.875 1</diffuse>
+          <ambient>0.875 0.875 0.875 1</ambient>
+        </material>
+      </visual>
+      <self_collide>true</self_collide>
+      <gravity>true</gravity>
+    </link>
+    <plugin name='control' filename='libgazebo_ros_control.so'/>
+    <plugin name='gz::sim::systems::JointStatePublisher' filename='gz-sim-joint-state-publisher-system'/>
+  </model>
+</sdf>

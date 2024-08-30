@@ -1,0 +1,51 @@
+[0mBuilding F450_description as an `ament_cmake` project.[0m
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:177 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+WARNING: Package name "F450_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[31mCMake Error at CMakeLists.txt:204 (add_library):
+  Target "ArduPilotPlugin" links to target "gazebo::gazebo" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:217 (add_library):
+  Target "ParachutePlugin" links to target "gazebo::gazebo" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:228 (add_library):
+  Target "CameraZoomPlugin" links to target "gazebo_common::gazebo_common"
+  but the target was not found.  Perhaps a find_package() call is missing for
+  an IMPORTED target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:228 (add_library):
+  Target "CameraZoomPlugin" links to target
+  "gazebo_rendering::gazebo_rendering" but the target was not found.  Perhaps
+  a find_package() call is missing for an IMPORTED target, or an ALIAS target
+  is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:228 (add_library):
+  Target "CameraZoomPlugin" links to target "gazebo::gazebo" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:241 (add_library):
+  Target "GstCameraPlugin" links to target "gazebo::gazebo" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

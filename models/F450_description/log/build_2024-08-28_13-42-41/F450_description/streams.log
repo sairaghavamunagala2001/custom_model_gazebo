@@ -1,0 +1,108 @@
+[0.010s] Invoking command in '/home/fwd/ros2_ws/src/F450_description/build/F450_description': /usr/bin/cmake --build /home/fwd/ros2_ws/src/F450_description/build/F450_description -- -j8 -l8
+[0.153s] [0mBuilding F450_description as an `ament_cmake` project.[0m
+[0.158s] -- Looking for gz-common5 -- found version 5.6.0
+[0.158s] -- Searching for dependencies of gz-common5
+[0.159s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.159s] -- Searching for dependencies of gz-utils2
+[0.160s] -- Looking for dlfcn.h - found
+[0.160s] -- Looking for libdl - found
+[0.165s] -- Checking for module 'uuid'
+[0.175s] --   Found uuid, version 2.37.2
+[0.200s] -- Looking for gz-common5 - found
+[0.200s] 
+[0.200s] -- Looking for gz-rendering8 -- found version 8.2.0
+[0.201s] -- Searching for dependencies of gz-rendering8
+[0.201s] -- Looking for gz-math7 -- found version 7.5.1
+[0.201s] -- Searching for dependencies of gz-math7
+[0.202s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.202s] -- Searching for <gz-math7> component [eigen3]
+[0.203s] -- Looking for gz-math7-eigen3 -- found version 7.5.1
+[0.203s] -- Searching for dependencies of gz-math7-eigen3
+[0.204s] -- Looking for gz-common5 -- found version 5.6.0
+[0.205s] -- Searching for dependencies of gz-common5
+[0.205s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.205s] -- Looking for dlfcn.h - found
+[0.205s] -- Looking for libdl - found
+[0.213s] -- Searching for <gz-common5> component [graphics]
+[0.213s] -- Looking for gz-common5-graphics -- found version 5.6.0
+[0.213s] -- Searching for dependencies of gz-common5-graphics
+[0.214s] -- Looking for gz-math7 -- found version 7.5.1
+[0.216s] -- Searching for <gz-common5> component [events]
+[0.216s] -- Looking for gz-common5-events -- found version 5.6.0
+[0.217s] -- Searching for dependencies of gz-common5-events
+[0.217s] -- Looking for gz-math7 -- found version 7.5.1
+[0.218s] -- Searching for <gz-common5> component [geospatial]
+[0.218s] -- Looking for gz-common5-geospatial -- found version 5.6.0
+[0.218s] -- Searching for dependencies of gz-common5-geospatial
+[0.219s] -- Looking for gz-math7 -- found version 7.5.1
+[0.220s] -- Looking for gz-common5 -- found version 5.6.0
+[0.220s] -- Looking for gz-plugin2 -- found version 2.0.3
+[0.221s] -- Searching for dependencies of gz-plugin2
+[0.221s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.222s] -- Searching for dependencies of gz-utils2
+[0.222s] -- Searching for <gz-utils2> component [cli]
+[0.222s] -- Looking for gz-utils2-cli -- found version 2.2.0
+[0.223s] -- Searching for dependencies of gz-utils2-cli
+[0.224s] -- Searching for <gz-plugin2> component [all]
+[0.224s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.3
+[0.225s] -- Looking for gz-plugin2 -- found version 2.0.3
+[0.225s] -- Looking for gz-plugin2-loader -- found version 2.0.3
+[0.226s] -- Searching for dependencies of gz-plugin2-loader
+[0.227s] -- Looking for gz-plugin2-register -- found version 2.0.3
+[0.227s] -- Searching for dependencies of gz-plugin2-register
+[0.228s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.230s] -- Looking for gz-rendering8 - found
+[0.230s] 
+[0.243s] [33mCMake Warning at /usr/share/cmake/gz-cmake3/cmake3/GzFindPackage.cmake:243 (find_package):
+[0.243s]   By not providing "Findgz-sim8.cmake" in CMAKE_MODULE_PATH this project has
+[0.244s]   asked CMake to find a package configuration file provided by "gz-sim8", but
+[0.244s]   CMake did not find one.
+[0.244s] 
+[0.244s]   Could not find a package configuration file provided by "gz-sim8" with any
+[0.244s]   of the following names:
+[0.244s] 
+[0.244s]     gz-sim8Config.cmake
+[0.244s]     gz-sim8-config.cmake
+[0.244s] 
+[0.244s]   Add the installation prefix of "gz-sim8" to CMAKE_PREFIX_PATH or set
+[0.244s]   "gz-sim8_DIR" to a directory containing one of the above files.  If
+[0.245s]   "gz-sim8" provides a separate development package or SDK, be sure it has
+[0.245s]   been installed.
+[0.245s] Call Stack (most recent call first):
+[0.245s]   CMakeLists.txt:31 (gz_find_package)
+[0.245s] 
+[0.245s] [0m
+[0.245s] -- Looking for gz-sim8 - not found
+[0.245s] 
+[0.245s] -- Compiling against Gazebo Harmonic
+[0.245s] -- RapidJSON found. Headers: /usr/include
+[0.300s] WARNING: Package name "F450_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.315s] -- Configuring done
+[0.318s] [31mCMake Error at CMakeLists.txt:64 (add_library):
+[0.318s]   Target "ArduPilotPlugin" links to target "gz-sim::gz-sim" but the target
+[0.318s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.318s]   target, or an ALIAS target is missing?
+[0.318s] 
+[0.319s] [0m
+[0.319s] [31mCMake Error at CMakeLists.txt:77 (add_library):
+[0.319s]   Target "ParachutePlugin" links to target "gz-sim::gz-sim" but the target
+[0.319s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.319s]   target, or an ALIAS target is missing?
+[0.319s] 
+[0.319s] [0m
+[0.319s] [31mCMake Error at CMakeLists.txt:88 (add_library):
+[0.319s]   Target "CameraZoomPlugin" links to target "gz-sim::gz-sim" but the target
+[0.319s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.319s]   target, or an ALIAS target is missing?
+[0.319s] 
+[0.320s] [0m
+[0.320s] [31mCMake Error at CMakeLists.txt:101 (add_library):
+[0.320s]   Target "GstCameraPlugin" links to target "gz-sim::gz-sim" but the target
+[0.320s]   was not found.  Perhaps a find_package() call is missing for an IMPORTED
+[0.320s]   target, or an ALIAS target is missing?
+[0.320s] 
+[0.320s] [0m
+[0.330s] -- Generating done
+[0.331s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.335s] gmake: *** [Makefile:444: cmake_check_build_system] Error 1
+[0.337s] Invoked command in '/home/fwd/ros2_ws/src/F450_description/build/F450_description' returned '2': /usr/bin/cmake --build /home/fwd/ros2_ws/src/F450_description/build/F450_description -- -j8 -l8

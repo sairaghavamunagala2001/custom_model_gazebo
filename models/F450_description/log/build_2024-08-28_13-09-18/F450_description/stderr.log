@@ -1,0 +1,2 @@
+[0mBuilding F450_description as an `ament_cmake` project.[0m
+WARNING: Package name "F450_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.

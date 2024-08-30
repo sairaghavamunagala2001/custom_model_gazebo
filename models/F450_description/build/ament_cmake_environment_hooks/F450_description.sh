@@ -1,0 +1,3 @@
+ament_prepend_unique_value GZ_SIM_RESOURCE_PATH "$AMENT_CURRENT_PREFIX/share/F450_description/models"
+ament_prepend_unique_value GZ_SIM_RESOURCE_PATH "$AMENT_CURRENT_PREFIX/share/F450_description/worlds"
+ament_prepend_unique_value GZ_SIM_PLUGIN_PATH "$AMENT_CURRENT_PREFIX/lib/F450_description"

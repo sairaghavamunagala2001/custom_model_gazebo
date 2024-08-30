@@ -1,0 +1,290 @@
+[0.018s] Invoking command in '/home/fwd/ros2_ws/src/F450_description/build/F450_description': /usr/bin/cmake --build /home/fwd/ros2_ws/src/F450_description/build/F450_description -- -j8 -l8
+[0.167s] [0mBuilding F450_description as an `ament_cmake` project.[0m
+[0.172s] -- Looking for gz-common5 -- found version 5.6.0
+[0.172s] -- Searching for dependencies of gz-common5
+[0.173s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.173s] -- Searching for dependencies of gz-utils2
+[0.174s] -- Looking for dlfcn.h - found
+[0.174s] -- Looking for libdl - found
+[0.179s] -- Checking for module 'uuid'
+[0.189s] --   Found uuid, version 2.37.2
+[0.215s] -- Looking for gz-common5 - found
+[0.215s] 
+[0.216s] -- Looking for gz-rendering8 -- found version 8.2.0
+[0.216s] -- Searching for dependencies of gz-rendering8
+[0.216s] -- Looking for gz-math7 -- found version 7.5.1
+[0.217s] -- Searching for dependencies of gz-math7
+[0.217s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.217s] -- Searching for <gz-math7> component [eigen3]
+[0.218s] -- Looking for gz-math7-eigen3 -- found version 7.5.1
+[0.218s] -- Searching for dependencies of gz-math7-eigen3
+[0.219s] -- Looking for gz-common5 -- found version 5.6.0
+[0.220s] -- Searching for dependencies of gz-common5
+[0.220s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.220s] -- Looking for dlfcn.h - found
+[0.220s] -- Looking for libdl - found
+[0.227s] -- Searching for <gz-common5> component [graphics]
+[0.227s] -- Looking for gz-common5-graphics -- found version 5.6.0
+[0.227s] -- Searching for dependencies of gz-common5-graphics
+[0.228s] -- Looking for gz-math7 -- found version 7.5.1
+[0.230s] -- Searching for <gz-common5> component [events]
+[0.231s] -- Looking for gz-common5-events -- found version 5.6.0
+[0.231s] -- Searching for dependencies of gz-common5-events
+[0.231s] -- Looking for gz-math7 -- found version 7.5.1
+[0.232s] -- Searching for <gz-common5> component [geospatial]
+[0.232s] -- Looking for gz-common5-geospatial -- found version 5.6.0
+[0.232s] -- Searching for dependencies of gz-common5-geospatial
+[0.233s] -- Looking for gz-math7 -- found version 7.5.1
+[0.233s] -- Looking for gz-common5 -- found version 5.6.0
+[0.234s] -- Looking for gz-plugin2 -- found version 2.0.3
+[0.234s] -- Searching for dependencies of gz-plugin2
+[0.235s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.235s] -- Searching for dependencies of gz-utils2
+[0.235s] -- Searching for <gz-utils2> component [cli]
+[0.235s] -- Looking for gz-utils2-cli -- found version 2.2.0
+[0.236s] -- Searching for dependencies of gz-utils2-cli
+[0.236s] -- Searching for <gz-plugin2> component [all]
+[0.237s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.3
+[0.237s] -- Looking for gz-plugin2 -- found version 2.0.3
+[0.237s] -- Looking for gz-plugin2-loader -- found version 2.0.3
+[0.238s] -- Searching for dependencies of gz-plugin2-loader
+[0.239s] -- Looking for gz-plugin2-register -- found version 2.0.3
+[0.239s] -- Searching for dependencies of gz-plugin2-register
+[0.241s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.243s] -- Looking for gz-rendering8 - found
+[0.243s] 
+[0.244s] -- Looking for gz-sim8 -- found version 8.6.0
+[0.244s] -- Searching for dependencies of gz-sim8
+[0.245s] -- Looking for sdformat14 -- found version 14.5.0
+[0.245s] -- Searching for dependencies of sdformat14
+[0.250s] -- Checking for module 'tinyxml2'
+[0.263s] --   Found tinyxml2, version 9.0.0
+[0.304s] -- Looking for gz-math7 -- found version 7.5.1
+[0.304s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.306s] -- Looking for gz-plugin2 -- found version 2.0.3
+[0.307s] -- Looking for gz-transport13 -- found version 13.4.0
+[0.308s] -- Searching for dependencies of gz-transport13
+[0.362s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.369s] -- Checking for module 'libzmq >= 4'
+[0.388s] --   Found libzmq , version 4.3.4
+[0.447s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.447s] -- Looking for gz-msgs10 -- found version 10.3.0
+[0.448s] -- Searching for dependencies of gz-msgs10
+[0.480s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.481s] -- Looking for gz-math7 -- found version 7.5.1
+[0.558s] -- Searching for <gz-transport13> component [log]
+[0.558s] -- Looking for gz-transport13-log -- found version 13.4.0
+[0.558s] -- Searching for dependencies of gz-transport13-log
+[0.559s] -- Searching for <gz-transport13> component [parameters]
+[0.559s] -- Looking for gz-transport13-parameters -- found version 13.4.0
+[0.559s] -- Searching for dependencies of gz-transport13-parameters
+[0.560s] -- Looking for gz-msgs10 -- found version 10.3.0
+[0.560s] -- Looking for gz-common5 -- found version 5.6.0
+[0.561s] -- Searching for dependencies of gz-common5
+[0.561s] -- Looking for gz-utils2 -- found version 2.2.0
+[0.561s] -- Looking for dlfcn.h - found
+[0.561s] -- Looking for libdl - found
+[0.568s] -- Searching for <gz-common5> component [av]
+[0.568s] -- Looking for gz-common5-av -- found version 5.6.0
+[0.569s] -- Searching for dependencies of gz-common5-av
+[0.573s] -- Checking for module 'libswscale'
+[0.584s] --   Found libswscale, version 5.9.100
+[0.616s] -- Checking for module 'libavdevice >= 56.4.100'
+[0.628s] --   Found libavdevice , version 58.13.100
+[0.665s] -- Checking for module 'libavformat'
+[0.677s] --   Found libavformat, version 58.76.100
+[0.717s] -- Checking for module 'libavcodec'
+[0.734s] --   Found libavcodec, version 58.134.100
+[0.788s] -- Checking for module 'libavutil'
+[0.806s] --   Found libavutil, version 56.70.100
+[0.851s] -- Searching for <gz-common5> component [events]
+[0.851s] -- Searching for <gz-common5> component [graphics]
+[0.852s] -- Searching for <gz-common5> component [io]
+[0.853s] -- Looking for gz-common5-io -- found version 5.6.0
+[0.853s] -- Searching for dependencies of gz-common5-io
+[0.854s] -- Searching for <gz-common5> component [profiler]
+[0.855s] -- Looking for gz-common5-profiler -- found version 5.6.0
+[0.856s] -- Searching for dependencies of gz-common5-profiler
+[0.857s] -- Looking for gz-fuel_tools9 -- found version 9.1.0
+[0.858s] -- Searching for dependencies of gz-fuel_tools9
+[0.932s] -- Checking for module 'jsoncpp'
+[0.955s] --   Found jsoncpp, version 1.9.5
+[1.018s] -- Checking for module 'libzip'
+[1.034s] --   Found libzip, version 1.7.3
+[1.069s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.069s] -- Looking for gz-common5 -- found version 5.6.0
+[1.070s] -- Searching for dependencies of gz-common5
+[1.070s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.071s] -- Looking for dlfcn.h - found
+[1.071s] -- Looking for libdl - found
+[1.079s] -- Searching for <gz-common5> component [testing]
+[1.079s] -- Looking for gz-common5-testing -- found version 5.6.0
+[1.080s] -- Searching for dependencies of gz-common5-testing
+[1.080s] -- Looking for gz-math7 -- found version 7.5.1
+[1.081s] -- Looking for gz-msgs10 -- found version 10.3.0
+[1.081s] -- Looking for gz-gui8 -- found version 8.3.0
+[1.082s] -- Searching for dependencies of gz-gui8
+[1.109s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.110s] -- Looking for gz-math7 -- found version 7.5.1
+[1.110s] -- Looking for gz-common5 -- found version 5.6.0
+[1.111s] -- Looking for gz-plugin2 -- found version 2.0.3
+[1.111s] -- Looking for gz-transport13 -- found version 13.4.0
+[1.112s] -- Looking for gz-rendering8 -- found version 8.2.0
+[1.113s] -- Looking for gz-msgs10 -- found version 10.3.0
+[1.133s] -- Looking for gz-physics7 -- found version 7.3.0
+[1.133s] -- Searching for dependencies of gz-physics7
+[1.134s] -- Looking for gz-common5 -- found version 5.6.0
+[1.134s] -- Looking for gz-math7 -- found version 7.5.1
+[1.134s] -- Looking for gz-plugin2 -- found version 2.0.3
+[1.135s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.136s] -- Searching for <gz-physics7> component [heightmap]
+[1.136s] -- Looking for gz-physics7-heightmap -- found version 7.3.0
+[1.137s] -- Searching for dependencies of gz-physics7-heightmap
+[1.137s] -- Looking for gz-common5 -- found version 5.6.0
+[1.138s] -- Searching for <gz-physics7> component [mesh]
+[1.139s] -- Looking for gz-physics7-mesh -- found version 7.3.0
+[1.139s] -- Searching for dependencies of gz-physics7-mesh
+[1.140s] -- Looking for gz-common5 -- found version 5.6.0
+[1.140s] -- Searching for <gz-physics7> component [sdf]
+[1.141s] -- Looking for gz-physics7-sdf -- found version 7.3.0
+[1.141s] -- Searching for dependencies of gz-physics7-sdf
+[1.142s] -- Looking for sdformat14 -- found version 14.5.0
+[1.143s] -- Looking for gz-sensors8 -- found version 8.2.0
+[1.144s] -- Searching for dependencies of gz-sensors8
+[1.165s] -- Looking for gz-math7 -- found version 7.5.1
+[1.166s] -- Looking for gz-common5 -- found version 5.6.0
+[1.166s] -- Looking for gz-transport13 -- found version 13.4.0
+[1.167s] -- Looking for gz-rendering8 -- found version 8.2.0
+[1.167s] -- Looking for gz-msgs10 -- found version 10.3.0
+[1.168s] -- Looking for sdformat14 -- found version 14.5.0
+[1.169s] -- Searching for <gz-sensors8> component [air_pressure]
+[1.170s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.0
+[1.170s] -- Searching for dependencies of gz-sensors8-air_pressure
+[1.171s] -- Searching for <gz-sensors8> component [air_speed]
+[1.172s] -- Looking for gz-sensors8-air_speed -- found version 8.2.0
+[1.172s] -- Searching for dependencies of gz-sensors8-air_speed
+[1.173s] -- Searching for <gz-sensors8> component [altimeter]
+[1.173s] -- Looking for gz-sensors8-altimeter -- found version 8.2.0
+[1.175s] -- Searching for dependencies of gz-sensors8-altimeter
+[1.175s] -- Searching for <gz-sensors8> component [imu]
+[1.177s] -- Looking for gz-sensors8-imu -- found version 8.2.0
+[1.177s] -- Searching for dependencies of gz-sensors8-imu
+[1.177s] -- Searching for <gz-sensors8> component [force_torque]
+[1.178s] -- Looking for gz-sensors8-force_torque -- found version 8.2.0
+[1.178s] -- Searching for dependencies of gz-sensors8-force_torque
+[1.178s] -- Searching for <gz-sensors8> component [logical_camera]
+[1.179s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.0
+[1.180s] -- Searching for dependencies of gz-sensors8-logical_camera
+[1.180s] -- Searching for <gz-sensors8> component [magnetometer]
+[1.181s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.0
+[1.182s] -- Searching for dependencies of gz-sensors8-magnetometer
+[1.185s] -- Searching for <gz-sensors8> component [navsat]
+[1.185s] -- Looking for gz-sensors8-navsat -- found version 8.2.0
+[1.186s] -- Searching for dependencies of gz-sensors8-navsat
+[1.186s] -- Searching for <gz-sensors8> component [dvl]
+[1.186s] -- Looking for gz-sensors8-dvl -- found version 8.2.0
+[1.186s] -- Searching for dependencies of gz-sensors8-dvl
+[1.186s] -- Looking for gz-sensors8 -- found version 8.2.0
+[1.187s] -- Searching for dependencies of gz-sensors8
+[1.215s] -- Looking for gz-math7 -- found version 7.5.1
+[1.215s] -- Looking for gz-common5 -- found version 5.6.0
+[1.216s] -- Looking for gz-transport13 -- found version 13.4.0
+[1.216s] -- Looking for gz-rendering8 -- found version 8.2.0
+[1.217s] -- Looking for gz-msgs10 -- found version 10.3.0
+[1.217s] -- Looking for sdformat14 -- found version 14.5.0
+[1.218s] -- Searching for <gz-sensors8> component [rendering]
+[1.218s] -- Looking for gz-sensors8-rendering -- found version 8.2.0
+[1.219s] -- Searching for dependencies of gz-sensors8-rendering
+[1.221s] -- Searching for <gz-sensors8> component [rendering]
+[1.221s] -- Searching for <gz-sensors8> component [lidar]
+[1.222s] -- Looking for gz-sensors8-lidar -- found version 8.2.0
+[1.222s] -- Searching for dependencies of gz-sensors8-lidar
+[1.223s] -- Looking for gz-sensors8 -- found version 8.2.0
+[1.224s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[1.224s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.0
+[1.225s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[1.225s] -- Looking for gz-sensors8 -- found version 8.2.0
+[1.226s] -- Searching for <gz-sensors8> component [camera]
+[1.226s] -- Looking for gz-sensors8-camera -- found version 8.2.0
+[1.227s] -- Searching for dependencies of gz-sensors8-camera
+[1.228s] -- Looking for gz-sensors8 -- found version 8.2.0
+[1.228s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[1.229s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.0
+[1.230s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[1.230s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[1.231s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.0
+[1.231s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[1.232s] -- Searching for <gz-sensors8> component [depth_camera]
+[1.233s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.0
+[1.233s] -- Searching for dependencies of gz-sensors8-depth_camera
+[1.233s] -- Looking for gz-sensors8 -- found version 8.2.0
+[1.234s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[1.234s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.0
+[1.234s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[1.235s] -- Looking for gz-sensors8 -- found version 8.2.0
+[1.235s] -- Searching for <gz-sensors8> component [thermal_camera]
+[1.236s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.0
+[1.236s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[1.236s] -- Looking for gz-sensors8 -- found version 8.2.0
+[1.237s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[1.237s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.0
+[1.238s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[1.239s] -- Looking for gz-rendering8 -- found version 8.2.0
+[1.239s] -- Looking for gz-math7 -- found version 7.5.1
+[1.239s] -- Looking for gz-utils2 -- found version 2.2.0
+[1.262s] -- Looking for gz-sim8 - found
+[1.262s] 
+[1.262s] -- Compiling against Gazebo Harmonic
+[1.262s] -- RapidJSON found. Headers: /usr/include
+[1.353s] WARNING: Package name "F450_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.381s] -- Configuring done
+[1.419s] -- Generating done
+[1.423s] -- Build files have been written to: /home/fwd/ros2_ws/src/F450_description/build/F450_description
+[1.470s] [35m[1mConsolidate compiler generated dependencies of target GstCameraPlugin[0m
+[1.470s] [35m[1mConsolidate compiler generated dependencies of target ArduPilotPlugin[0m
+[1.472s] [35m[1mConsolidate compiler generated dependencies of target ParachutePlugin[0m
+[1.473s] [35m[1mConsolidate compiler generated dependencies of target CameraZoomPlugin[0m
+[1.508s] [ 10%] [32mBuilding CXX object CMakeFiles/GstCameraPlugin.dir/src/GstCameraPlugin.cc.o[0m
+[1.515s] [ 20%] [32mBuilding CXX object CMakeFiles/ParachutePlugin.dir/src/ParachutePlugin.cc.o[0m
+[1.515s] [ 40%] [32mBuilding CXX object CMakeFiles/CameraZoomPlugin.dir/src/CameraZoomPlugin.cc.o[0m
+[1.516s] [ 40%] [32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/ArduPilotPlugin.cc.o[0m
+[1.519s] [ 50%] [32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/Util.cc.o[0m
+[1.525s] [ 60%] [32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/SocketUDP.cc.o[0m
+[1.570s] [ 70%] [32m[1mLinking CXX shared library libCameraZoomPlugin.so[0m
+[1.570s] [ 80%] [32m[1mLinking CXX shared library libParachutePlugin.so[0m
+[1.576s] [ 90%] [32m[1mLinking CXX shared library libGstCameraPlugin.so[0m
+[1.577s] [100%] [32m[1mLinking CXX shared library libArduPilotPlugin.so[0m
+[2.071s] [100%] Built target CameraZoomPlugin
+[2.094s] [100%] Built target ParachutePlugin
+[2.148s] [100%] Built target GstCameraPlugin
+[2.302s] [100%] Built target ArduPilotPlugin
+[2.319s] Invoked command in '/home/fwd/ros2_ws/src/F450_description/build/F450_description' returned '0': /usr/bin/cmake --build /home/fwd/ros2_ws/src/F450_description/build/F450_description -- -j8 -l8
+[2.397s] Invoking command in '/home/fwd/ros2_ws/src/F450_description/build/F450_description': /usr/bin/cmake --install /home/fwd/ros2_ws/src/F450_description/build/F450_description
+[2.409s] -- Install configuration: ""
+[2.412s] -- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/lib/F450_description/libArduPilotPlugin.so
+[2.418s] -- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/lib/F450_description/libParachutePlugin.so
+[2.423s] -- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/lib/F450_description/libCameraZoomPlugin.so
+[2.428s] -- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/lib/F450_description/libGstCameraPlugin.so
+[2.431s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/config
+[2.432s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/config/display.rviz
+[2.432s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/models
+[2.432s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/worlds
+[2.432s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/worlds/custom_world.sdf
+[2.433s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/environment/F450_description.dsv
+[2.433s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/environment/F450_description.sh
+[2.433s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/ament_index/resource_index/package_run_dependencies/F450_description
+[2.433s] -- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/ament_index/resource_index/parent_prefix_path/F450_description
+[2.434s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/environment/ament_prefix_path.sh
+[2.434s] -- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/environment/ament_prefix_path.dsv
+[2.434s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/environment/path.sh
+[2.434s] -- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/environment/path.dsv
+[2.434s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/local_setup.bash
+[2.435s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/local_setup.sh
+[2.435s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/local_setup.zsh
+[2.435s] -- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/local_setup.dsv
+[2.435s] -- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/package.dsv
+[2.435s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/ament_index/resource_index/packages/F450_description
+[2.436s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/cmake/F450_descriptionConfig.cmake
+[2.436s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/cmake/F450_descriptionConfig-version.cmake
+[2.436s] -- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/package.xml
+[2.438s] Invoked command in '/home/fwd/ros2_ws/src/F450_description/build/F450_description' returned '0': /usr/bin/cmake --install /home/fwd/ros2_ws/src/F450_description/build/F450_description

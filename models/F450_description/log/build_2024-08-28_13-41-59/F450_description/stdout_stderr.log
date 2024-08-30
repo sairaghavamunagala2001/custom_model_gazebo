@@ -1,0 +1,106 @@
+[0mBuilding F450_description as an `ament_cmake` project.[0m
+-- Looking for gz-common5 -- found version 5.6.0
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.0
+-- Searching for dependencies of gz-utils2
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Looking for gz-common5 - found
+
+-- Looking for gz-rendering8 -- found version 8.2.0
+-- Searching for dependencies of gz-rendering8
+-- Looking for gz-math7 -- found version 7.5.1
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.2.0
+-- Searching for <gz-math7> component [eigen3]
+-- Looking for gz-math7-eigen3 -- found version 7.5.1
+-- Searching for dependencies of gz-math7-eigen3
+-- Looking for gz-common5 -- found version 5.6.0
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [graphics]
+-- Looking for gz-common5-graphics -- found version 5.6.0
+-- Searching for dependencies of gz-common5-graphics
+-- Looking for gz-math7 -- found version 7.5.1
+-- Searching for <gz-common5> component [events]
+-- Looking for gz-common5-events -- found version 5.6.0
+-- Searching for dependencies of gz-common5-events
+-- Looking for gz-math7 -- found version 7.5.1
+-- Searching for <gz-common5> component [geospatial]
+-- Looking for gz-common5-geospatial -- found version 5.6.0
+-- Searching for dependencies of gz-common5-geospatial
+-- Looking for gz-math7 -- found version 7.5.1
+-- Looking for gz-common5 -- found version 5.6.0
+-- Looking for gz-plugin2 -- found version 2.0.3
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.2.0
+-- Searching for dependencies of gz-utils2
+-- Searching for <gz-utils2> component [cli]
+-- Looking for gz-utils2-cli -- found version 2.2.0
+-- Searching for dependencies of gz-utils2-cli
+-- Searching for <gz-plugin2> component [all]
+-- Looking for all libraries of gz-plugin2 -- found version 2.0.3
+-- Looking for gz-plugin2 -- found version 2.0.3
+-- Looking for gz-plugin2-loader -- found version 2.0.3
+-- Searching for dependencies of gz-plugin2-loader
+-- Looking for gz-plugin2-register -- found version 2.0.3
+-- Searching for dependencies of gz-plugin2-register
+-- Looking for gz-utils2 -- found version 2.2.0
+-- Looking for gz-rendering8 - found
+
+[33mCMake Warning at /usr/share/cmake/gz-cmake3/cmake3/GzFindPackage.cmake:243 (find_package):
+  By not providing "Findgz-sim8.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "gz-sim8", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "gz-sim8" with any
+  of the following names:
+
+    gz-sim8Config.cmake
+    gz-sim8-config.cmake
+
+  Add the installation prefix of "gz-sim8" to CMAKE_PREFIX_PATH or set
+  "gz-sim8_DIR" to a directory containing one of the above files.  If
+  "gz-sim8" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:32 (gz_find_package)
+
+[0m
+-- Looking for gz-sim8 - not found
+
+-- Compiling against Gazebo Harmonic
+-- RapidJSON found. Headers: /usr/include
+WARNING: Package name "F450_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Configuring done
+[31mCMake Error at CMakeLists.txt:65 (add_library):
+  Target "ArduPilotPlugin" links to target "gz-sim::gz-sim" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:78 (add_library):
+  Target "ParachutePlugin" links to target "gz-sim::gz-sim" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:89 (add_library):
+  Target "CameraZoomPlugin" links to target "gz-sim::gz-sim" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+[31mCMake Error at CMakeLists.txt:102 (add_library):
+  Target "GstCameraPlugin" links to target "gz-sim::gz-sim" but the target
+  was not found.  Perhaps a find_package() call is missing for an IMPORTED
+  target, or an ALIAS target is missing?
+
+[0m
+-- Generating done
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+gmake: *** [Makefile:444: cmake_check_build_system] Error 1

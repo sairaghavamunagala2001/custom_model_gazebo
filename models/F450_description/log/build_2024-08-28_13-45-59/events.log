@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.000124] (F450_description) JobQueued: {'identifier': 'F450_description', 'dependencies': OrderedDict()}
+[0.000160] (F450_description) JobStarted: {'identifier': 'F450_description'}
+[0.008498] (F450_description) JobProgress: {'identifier': 'F450_description', 'progress': 'cmake'}
+[0.010158] (F450_description) JobProgress: {'identifier': 'F450_description', 'progress': 'build'}
+[0.010219] (F450_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fwd/ros2_ws/src/F450_description/build/F450_description', '--', '-j8', '-l8'], 'cwd': '/home/fwd/ros2_ws/src/F450_description/build/F450_description', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'fwd'), ('GIO_MODULE_DIR', '/home/fwd/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fwd'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/fwd/ros2_ws/src/F450_description/build'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/167/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/fwd/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/167/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1985'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2ca968c8f5eed33adb47ace566ceb1f5'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/fwd/ros2_ws/src/F450_description/install:/home/fwd/ros2_ws/install:/home/fwd/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fwd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'fwd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/usr/lib/ccache:/home/fwd/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/fwd/.local/bin:/opt/ros/humble/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fwd/ardupilot/Tools/autotest:/home/fwd/ardupilot/Tools/autotest:/home/fwd/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/fwd:@/tmp/.ICE-unix/1985,unix/fwd:/tmp/.ICE-unix/1985'), ('GTK_EXE_PREFIX', '/snap/code/167/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5da2081e_4397_46ef_88b6_c5b288635ef8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/167/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a15c622f6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/fwd/snap/code/167/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/fwd/ros2_ws/install/sampleurdf:/home/fwd/ros2_ws/install/my_first_pkg:/home/fwd/ros2_ws/install/F450_description:/home/fwd/install/sampleurdf:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fwd/ros2_ws/src/F450_description/build/F450_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2ca968c8f5eed33adb47ace566ceb1f5'), ('XDG_DATA_DIRS', '/home/fwd/snap/code/167/.local/share:/home/fwd/snap/code/167:/snap/code/167/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fwd/ros2_ws/build/F450_description:/home/fwd/ros2_ws/install/F450_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fwd/ros2_ws/install/sampleurdf:/home/fwd/ros2_ws/install/my_first_pkg:/home/fwd/install/sampleurdf')]), 'shell': False}
+[0.099534] (-) TimerEvent: {}
+[0.151866] (F450_description) StderrLine: {'line': b'\x1b[0mBuilding F450_description as an `ament_cmake` project.\x1b[0m\n'}
+[0.156934] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[0.157468] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[0.157927] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.158476] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.159267] (F450_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.159355] (F450_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.164865] (F450_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.174747] (F450_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.199476] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 - found\n'}
+[0.199618] (-) TimerEvent: {}
+[0.199696] (F450_description) StdoutLine: {'line': b'\n'}
+[0.200058] (F450_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.0\n'}
+[0.200424] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[0.200807] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.201182] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[0.201491] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.201979] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[0.202303] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.1\n'}
+[0.202742] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[0.204027] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[0.204515] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[0.204910] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.205067] (F450_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.205147] (F450_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.211821] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[0.212150] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.6.0\n'}
+[0.212570] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[0.212985] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.215558] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[0.215825] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.6.0\n'}
+[0.216220] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[0.216526] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.216973] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[0.217256] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.6.0\n'}
+[0.217652] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[0.217954] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.218304] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[0.219143] (F450_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[0.219456] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[0.219776] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.220185] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.220374] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[0.220533] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.0\n'}
+[0.220971] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[0.221700] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[0.221960] (F450_description) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.3\n'}
+[0.222433] (F450_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[0.222860] (F450_description) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.3\n'}
+[0.223276] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[0.224054] (F450_description) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.3\n'}
+[0.224332] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[0.225488] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.227561] (F450_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 - found\n'}
+[0.227708] (F450_description) StdoutLine: {'line': b'\n'}
+[0.239424] (F450_description) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/share/cmake/gz-cmake3/cmake3/GzFindPackage.cmake:243 (find_package):\n'}
+[0.239592] (F450_description) StderrLine: {'line': b'  By not providing "Findgz-sim8.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.239692] (F450_description) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "gz-sim8", but\n'}
+[0.239777] (F450_description) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.239861] (F450_description) StderrLine: {'line': b'\n'}
+[0.239944] (F450_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "gz-sim8" with any\n'}
+[0.240029] (F450_description) StderrLine: {'line': b'  of the following names:\n'}
+[0.240110] (F450_description) StderrLine: {'line': b'\n'}
+[0.240189] (F450_description) StderrLine: {'line': b'    gz-sim8Config.cmake\n'}
+[0.240271] (F450_description) StderrLine: {'line': b'    gz-sim8-config.cmake\n'}
+[0.240352] (F450_description) StderrLine: {'line': b'\n'}
+[0.240432] (F450_description) StderrLine: {'line': b'  Add the installation prefix of "gz-sim8" to CMAKE_PREFIX_PATH or set\n'}
+[0.240514] (F450_description) StderrLine: {'line': b'  "gz-sim8_DIR" to a directory containing one of the above files.  If\n'}
+[0.240607] (F450_description) StderrLine: {'line': b'  "gz-sim8" provides a separate development package or SDK, be sure it has\n'}
+[0.240699] (F450_description) StderrLine: {'line': b'  been installed.\n'}
+[0.240782] (F450_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.240861] (F450_description) StderrLine: {'line': b'  CMakeLists.txt:31 (gz_find_package)\n'}
+[0.240942] (F450_description) StderrLine: {'line': b'\n'}
+[0.241022] (F450_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.241103] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sim8 - not found\n'}
+[0.241197] (F450_description) StdoutLine: {'line': b'\n'}
+[0.241282] (F450_description) StdoutLine: {'line': b'-- Compiling against Gazebo Harmonic\n'}
+[0.241362] (F450_description) StdoutLine: {'line': b'-- RapidJSON found. Headers: /usr/include\n'}
+[0.252257] (F450_description) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.252422] (F450_description) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.252514] (F450_description) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.252616] (F450_description) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.252703] (F450_description) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.252785] (F450_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.252870] (F450_description) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.252954] (F450_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.253034] (F450_description) StderrLine: {'line': b'  CMakeLists.txt:63 (find_package)\n'}
+[0.253115] (F450_description) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.253195] (F450_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.253275] (F450_description) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.256465] (F450_description) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.266673] (F450_description) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.299714] (-) TimerEvent: {}
+[0.351528] (F450_description) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.391279] (F450_description) StdoutLine: {'line': b'-- Found assimp: /usr/include;/usr/include (found version "5.2.0") \n'}
+[0.399792] (-) TimerEvent: {}
+[0.409021] (F450_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.430564] (F450_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[0.444229] (F450_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.448390] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.449007] (F450_description) StderrLine: {'line': b'\x1b[33mCMake Warning at /usr/share/cmake/gz-cmake3/cmake3/GzPkgConfig.cmake:203 (message):\n'}
+[0.449155] (F450_description) StderrLine: {'line': b'  ign_pkg_config_entry is deprecated, use gz_pkg_config_entry instead.\n'}
+[0.449276] (F450_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.449408] (F450_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/ignition-math6/ignition-math6-config.cmake:182 (ign_pkg_config_entry)\n'}
+[0.449526] (F450_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/sdformat9/sdformat9-config.cmake:60 (find_package)\n'}
+[0.449666] (F450_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:208 (find_package)\n'}
+[0.449772] (F450_description) StderrLine: {'line': b'  CMakeLists.txt:63 (find_package)\n'}
+[0.449840] (F450_description) StderrLine: {'line': b'\n'}
+[0.449892] (F450_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.450212] (F450_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.450815] (F450_description) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[0.455878] (F450_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.466628] (F450_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.492694] (F450_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.499897] (-) TimerEvent: {}
+[0.504701] (F450_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.515573] (F450_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.520136] (F450_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.520232] (F450_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.524936] (F450_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.525101] (F450_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.529910] (F450_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.530042] (F450_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.534349] (F450_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.534452] (F450_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.539191] (F450_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.539282] (F450_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.543554] (F450_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.600029] (-) TimerEvent: {}
+[0.649235] (F450_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.651643] (F450_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.652104] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.662837] (F450_description) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/ignition-transport8/ignition-transport8-config.cmake:92 (find_package):\n'}
+[0.662946] (F450_description) StderrLine: {'line': b'  By not providing "FindIgnProtobuf.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.663012] (F450_description) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.663148] (F450_description) StderrLine: {'line': b'  "IgnProtobuf", but CMake did not find one.\n'}
+[0.663224] (F450_description) StderrLine: {'line': b'\n'}
+[0.663278] (F450_description) StderrLine: {'line': b'  Could not find a package configuration file provided by "IgnProtobuf"\n'}
+[0.663329] (F450_description) StderrLine: {'line': b'  (requested version 3) with any of the following names:\n'}
+[0.663378] (F450_description) StderrLine: {'line': b'\n'}
+[0.663426] (F450_description) StderrLine: {'line': b'    IgnProtobufConfig.cmake\n'}
+[0.663474] (F450_description) StderrLine: {'line': b'    ignprotobuf-config.cmake\n'}
+[0.663528] (F450_description) StderrLine: {'line': b'\n'}
+[0.663591] (F450_description) StderrLine: {'line': b'  Add the installation prefix of "IgnProtobuf" to CMAKE_PREFIX_PATH or set\n'}
+[0.663643] (F450_description) StderrLine: {'line': b'  "IgnProtobuf_DIR" to a directory containing one of the above files.  If\n'}
+[0.663693] (F450_description) StderrLine: {'line': b'  "IgnProtobuf" provides a separate development package or SDK, be sure it\n'}
+[0.663741] (F450_description) StderrLine: {'line': b'  has been installed.\n'}
+[0.663789] (F450_description) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.663837] (F450_description) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:235 (find_package)\n'}
+[0.663885] (F450_description) StderrLine: {'line': b'  CMakeLists.txt:63 (find_package)\n'}
+[0.663932] (F450_description) StderrLine: {'line': b'\n'}
+[0.663979] (F450_description) StderrLine: {'line': b'\x1b[0m\n'}
+[0.664026] (F450_description) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.664079] (F450_description) StdoutLine: {'line': b'See also "/home/fwd/ros2_ws/src/F450_description/build/F450_description/CMakeFiles/CMakeOutput.log".\n'}
+[0.671136] (F450_description) StderrLine: {'line': b'gmake: *** [Makefile:444: cmake_check_build_system] Error 1\n'}
+[0.673139] (F450_description) CommandEnded: {'returncode': 2}
+[0.673588] (F450_description) JobEnded: {'identifier': 'F450_description', 'rc': 2}
+[0.683562] (-) EventReactorShutdown: {}

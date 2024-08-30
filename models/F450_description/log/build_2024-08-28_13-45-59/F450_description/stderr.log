@@ -1,0 +1,61 @@
+[0mBuilding F450_description as an `ament_cmake` project.[0m
+[33mCMake Warning at /usr/share/cmake/gz-cmake3/cmake3/GzFindPackage.cmake:243 (find_package):
+  By not providing "Findgz-sim8.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "gz-sim8", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "gz-sim8" with any
+  of the following names:
+
+    gz-sim8Config.cmake
+    gz-sim8-config.cmake
+
+  Add the installation prefix of "gz-sim8" to CMAKE_PREFIX_PATH or set
+  "gz-sim8_DIR" to a directory containing one of the above files.  If
+  "gz-sim8" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:31 (gz_find_package)
+
+[0m
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:63 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning at /usr/share/cmake/gz-cmake3/cmake3/GzPkgConfig.cmake:203 (message):
+  ign_pkg_config_entry is deprecated, use gz_pkg_config_entry instead.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-math6/ignition-math6-config.cmake:182 (ign_pkg_config_entry)
+  /usr/lib/x86_64-linux-gnu/cmake/sdformat9/sdformat9-config.cmake:60 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:208 (find_package)
+  CMakeLists.txt:63 (find_package)
+
+[0m
+[31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/ignition-transport8/ignition-transport8-config.cmake:92 (find_package):
+  By not providing "FindIgnProtobuf.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "IgnProtobuf", but CMake did not find one.
+
+  Could not find a package configuration file provided by "IgnProtobuf"
+  (requested version 3) with any of the following names:
+
+    IgnProtobufConfig.cmake
+    ignprotobuf-config.cmake
+
+  Add the installation prefix of "IgnProtobuf" to CMAKE_PREFIX_PATH or set
+  "IgnProtobuf_DIR" to a directory containing one of the above files.  If
+  "IgnProtobuf" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:235 (find_package)
+  CMakeLists.txt:63 (find_package)
+
+[0m
+gmake: *** [Makefile:444: cmake_check_build_system] Error 1

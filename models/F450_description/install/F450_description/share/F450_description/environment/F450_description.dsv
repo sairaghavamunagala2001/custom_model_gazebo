@@ -1,0 +1,4 @@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;share;/home/fwd/ros2_ws/src/F450_description/install/F450_description/share
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;share/F450_description/models
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;share/F450_description/worlds
+prepend-non-duplicate;GZ_SIM_SYSTEM_PLUGIN_PATH;lib/F450_description/

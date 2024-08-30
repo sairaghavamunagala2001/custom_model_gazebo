@@ -1,0 +1,357 @@
+[0.000000] (-) TimerEvent: {}
+[0.000198] (F450_description) JobQueued: {'identifier': 'F450_description', 'dependencies': OrderedDict()}
+[0.000241] (F450_description) JobStarted: {'identifier': 'F450_description'}
+[0.008559] (F450_description) JobProgress: {'identifier': 'F450_description', 'progress': 'cmake'}
+[0.008863] (F450_description) Command: {'cmd': ['/usr/bin/cmake', '/home/fwd/ros2_ws/src/F450_description', '-DCMAKE_INSTALL_PREFIX=/home/fwd/ros2_ws/src/F450_description/install/F450_description'], 'cwd': '/home/fwd/ros2_ws/src/F450_description/build/F450_description', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'fwd'), ('GIO_MODULE_DIR', '/home/fwd/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fwd'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/fwd/ros2_ws/src/F450_description/build'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/167/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/fwd/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/167/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1985'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2ca968c8f5eed33adb47ace566ceb1f5'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/fwd/ros2_ws/src/F450_description/install:/home/fwd/ros2_ws/install:/home/fwd/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fwd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'fwd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/usr/lib/ccache:/home/fwd/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/fwd/.local/bin:/opt/ros/humble/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fwd/ardupilot/Tools/autotest:/home/fwd/ardupilot/Tools/autotest:/home/fwd/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/fwd:@/tmp/.ICE-unix/1985,unix/fwd:/tmp/.ICE-unix/1985'), ('GTK_EXE_PREFIX', '/snap/code/167/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5da2081e_4397_46ef_88b6_c5b288635ef8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/167/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a15c622f6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/fwd/snap/code/167/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/fwd/ros2_ws/install/sampleurdf:/home/fwd/ros2_ws/install/my_first_pkg:/home/fwd/ros2_ws/install/F450_description:/home/fwd/install/sampleurdf:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fwd/ros2_ws/src/F450_description/build/F450_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2ca968c8f5eed33adb47ace566ceb1f5'), ('XDG_DATA_DIRS', '/home/fwd/snap/code/167/.local/share:/home/fwd/snap/code/167:/snap/code/167/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fwd/ros2_ws/build/F450_description:/home/fwd/ros2_ws/install/F450_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fwd/ros2_ws/install/sampleurdf:/home/fwd/ros2_ws/install/my_first_pkg:/home/fwd/install/sampleurdf')]), 'shell': False}
+[0.099416] (-) TimerEvent: {}
+[0.118066] (F450_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.186883] (F450_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.195926] (F450_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199472] (-) TimerEvent: {}
+[0.250994] (F450_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.260386] (F450_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/lib/ccache/cc - skipped\n'}
+[0.260621] (F450_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.261123] (F450_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.264702] (F450_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299563] (-) TimerEvent: {}
+[0.328174] (F450_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.337789] (F450_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped\n'}
+[0.338253] (F450_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.338751] (F450_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.399679] (-) TimerEvent: {}
+[0.499923] (-) TimerEvent: {}
+[0.600132] (-) TimerEvent: {}
+[0.686054] (F450_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700257] (-) TimerEvent: {}
+[0.779353] (F450_description) StderrLine: {'line': b'\x1b[0mBuilding F450_description as an `ament_cmake` project.\x1b[0m\n'}
+[0.788882] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[0.789299] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[0.792073] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.792540] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.793438] (F450_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.800359] (F450_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.800447] (-) TimerEvent: {}
+[0.801827] (F450_description) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[0.806655] (F450_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.818306] (F450_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.844546] (F450_description) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[0.845156] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 - found\n'}
+[0.845239] (F450_description) StdoutLine: {'line': b'\n'}
+[0.848106] (F450_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.0\n'}
+[0.848487] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering8\n'}
+[0.850874] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.851190] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[0.851540] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.851936] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[0.854263] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.1\n'}
+[0.854683] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[0.862511] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[0.862889] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[0.863195] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.863365] (F450_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.863441] (F450_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.869694] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[0.872116] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.6.0\n'}
+[0.872558] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[0.872870] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.878906] (F450_description) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.2.0") \n'}
+[0.879341] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[0.881707] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.6.0\n'}
+[0.882120] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[0.882453] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.882953] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[0.885345] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.6.0\n'}
+[0.885757] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[0.886064] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.886429] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[0.889317] (F450_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[0.889706] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[0.890017] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.890363] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[0.890474] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[0.892927] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.0\n'}
+[0.893350] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[0.894045] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[0.896360] (F450_description) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.3\n'}
+[0.896842] (F450_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[0.899250] (F450_description) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.3\n'}
+[0.899685] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[0.900517] (-) TimerEvent: {}
+[0.902437] (F450_description) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.3\n'}
+[0.902850] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[0.903802] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.908099] (F450_description) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[0.908979] (F450_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 - found\n'}
+[0.909091] (F450_description) StdoutLine: {'line': b'\n'}
+[0.912219] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sim8 -- found version 8.6.0\n'}
+[0.912800] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim8\n'}
+[0.915341] (F450_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.5.0\n'}
+[0.915708] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of sdformat14\n'}
+[0.920272] (F450_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.932162] (F450_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.960060] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[0.960379] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[0.961271] (F450_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[0.963794] (F450_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[0.964198] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13\n'}
+[1.000628] (-) TimerEvent: {}
+[1.100924] (-) TimerEvent: {}
+[1.150692] (F450_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.163486] (F450_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.167783] (F450_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.178483] (F450_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.201051] (-) TimerEvent: {}
+[1.208976] (F450_description) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.216181] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.218877] (F450_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.0\n'}
+[1.219445] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs10\n'}
+[1.239489] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.239947] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.298008] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [log]\n'}
+[1.300748] (F450_description) StdoutLine: {'line': b'-- Looking for gz-transport13-log -- found version 13.4.0\n'}
+[1.301148] (-) TimerEvent: {}
+[1.301265] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-log\n'}
+[1.301964] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-transport13> component [parameters]\n'}
+[1.304638] (F450_description) StdoutLine: {'line': b'-- Looking for gz-transport13-parameters -- found version 13.4.0\n'}
+[1.305175] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport13-parameters\n'}
+[1.306218] (F450_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.0\n'}
+[1.306690] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[1.307172] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.307680] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.307869] (F450_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.307981] (F450_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.315844] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[1.318537] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.6.0\n'}
+[1.319154] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[1.323958] (F450_description) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[1.335264] (F450_description) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[1.364408] (F450_description) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[1.369211] (F450_description) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[1.380347] (F450_description) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[1.401294] (-) TimerEvent: {}
+[1.411701] (F450_description) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[1.416668] (F450_description) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[1.427683] (F450_description) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[1.457536] (F450_description) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[1.462382] (F450_description) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[1.473342] (F450_description) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[1.501395] (-) TimerEvent: {}
+[1.502361] (F450_description) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[1.507092] (F450_description) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[1.519308] (F450_description) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[1.548026] (F450_description) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[1.548529] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[1.548862] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[1.549231] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[1.551704] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.6.0\n'}
+[1.552158] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[1.552561] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[1.554983] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.6.0\n'}
+[1.555419] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[1.558309] (F450_description) StdoutLine: {'line': b'-- Looking for gz-fuel_tools9 -- found version 9.1.0\n'}
+[1.558668] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools9\n'}
+[1.601480] (-) TimerEvent: {}
+[1.630832] (F450_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.639403] (F450_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.650995] (F450_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.678943] (F450_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.685678] (F450_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.696569] (F450_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.701591] (-) TimerEvent: {}
+[1.726610] (F450_description) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.727319] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.727722] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[1.728175] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[1.728589] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.728759] (F450_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.728872] (F450_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.735924] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[1.738644] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.6.0\n'}
+[1.739184] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[1.740138] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.740728] (F450_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.0\n'}
+[1.743858] (F450_description) StdoutLine: {'line': b'-- Looking for gz-gui8 -- found version 8.3.0\n'}
+[1.744158] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui8\n'}
+[1.768860] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.769134] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.769491] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[1.769845] (F450_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[1.770152] (F450_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[1.770622] (F450_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.0\n'}
+[1.771098] (F450_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.0\n'}
+[1.791924] (F450_description) StdoutLine: {'line': b'-- Looking for gz-physics7 -- found version 7.3.0\n'}
+[1.792302] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7\n'}
+[1.792640] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[1.792916] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.793213] (F450_description) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[1.793569] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.794643] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [heightmap]\n'}
+[1.797004] (F450_description) StdoutLine: {'line': b'-- Looking for gz-physics7-heightmap -- found version 7.3.0\n'}
+[1.797381] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-heightmap\n'}
+[1.797740] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[1.798115] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [mesh]\n'}
+[1.800438] (F450_description) StdoutLine: {'line': b'-- Looking for gz-physics7-mesh -- found version 7.3.0\n'}
+[1.800896] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-mesh\n'}
+[1.801185] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[1.801527] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-physics7> component [sdf]\n'}
+[1.801690] (-) TimerEvent: {}
+[1.804123] (F450_description) StdoutLine: {'line': b'-- Looking for gz-physics7-sdf -- found version 7.3.0\n'}
+[1.804628] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics7-sdf\n'}
+[1.805021] (F450_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.5.0\n'}
+[1.808018] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.0\n'}
+[1.808493] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[1.829054] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.829491] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[1.829910] (F450_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[1.830390] (F450_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.0\n'}
+[1.830816] (F450_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.0\n'}
+[1.831207] (F450_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.5.0\n'}
+[1.831829] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_pressure]\n'}
+[1.834347] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_pressure -- found version 8.2.0\n'}
+[1.834864] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_pressure\n'}
+[1.835303] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [air_speed]\n'}
+[1.837924] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-air_speed -- found version 8.2.0\n'}
+[1.838416] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-air_speed\n'}
+[1.838865] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [altimeter]\n'}
+[1.841479] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-altimeter -- found version 8.2.0\n'}
+[1.841931] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-altimeter\n'}
+[1.842404] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [imu]\n'}
+[1.845081] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-imu -- found version 8.2.0\n'}
+[1.845630] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-imu\n'}
+[1.846185] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [force_torque]\n'}
+[1.848565] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-force_torque -- found version 8.2.0\n'}
+[1.848967] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-force_torque\n'}
+[1.849434] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [logical_camera]\n'}
+[1.851789] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-logical_camera -- found version 8.2.0\n'}
+[1.852156] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-logical_camera\n'}
+[1.852557] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [magnetometer]\n'}
+[1.855137] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-magnetometer -- found version 8.2.0\n'}
+[1.855512] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-magnetometer\n'}
+[1.855889] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [navsat]\n'}
+[1.858278] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-navsat -- found version 8.2.0\n'}
+[1.858699] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-navsat\n'}
+[1.859105] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [dvl]\n'}
+[1.861474] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-dvl -- found version 8.2.0\n'}
+[1.861873] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-dvl\n'}
+[1.862209] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.0\n'}
+[1.862591] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8\n'}
+[1.882276] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.882623] (F450_description) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.6.0\n'}
+[1.882989] (F450_description) StdoutLine: {'line': b'-- Looking for gz-transport13 -- found version 13.4.0\n'}
+[1.883343] (F450_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.0\n'}
+[1.883717] (F450_description) StdoutLine: {'line': b'-- Looking for gz-msgs10 -- found version 10.3.0\n'}
+[1.884081] (F450_description) StdoutLine: {'line': b'-- Looking for sdformat14 -- found version 14.5.0\n'}
+[1.884217] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[1.886684] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-rendering -- found version 8.2.0\n'}
+[1.887138] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rendering\n'}
+[1.888220] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rendering]\n'}
+[1.888555] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [lidar]\n'}
+[1.890959] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-lidar -- found version 8.2.0\n'}
+[1.891362] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-lidar\n'}
+[1.891875] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.0\n'}
+[1.892345] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [gpu_lidar]\n'}
+[1.894706] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-gpu_lidar -- found version 8.2.0\n'}
+[1.895114] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-gpu_lidar\n'}
+[1.895413] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.0\n'}
+[1.895906] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [camera]\n'}
+[1.898313] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-camera -- found version 8.2.0\n'}
+[1.898677] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-camera\n'}
+[1.899009] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.0\n'}
+[1.899505] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [boundingbox_camera]\n'}
+[1.901800] (-) TimerEvent: {}
+[1.901949] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.0\n'}
+[1.902316] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-boundingbox_camera\n'}
+[1.902804] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [segmentation_camera]\n'}
+[1.905359] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-segmentation_camera -- found version 8.2.0\n'}
+[1.905836] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-segmentation_camera\n'}
+[1.906341] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [depth_camera]\n'}
+[1.908912] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-depth_camera -- found version 8.2.0\n'}
+[1.909432] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-depth_camera\n'}
+[1.909881] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.0\n'}
+[1.910389] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [rgbd_camera]\n'}
+[1.913084] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-rgbd_camera -- found version 8.2.0\n'}
+[1.913627] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-rgbd_camera\n'}
+[1.914053] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.0\n'}
+[1.914658] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [thermal_camera]\n'}
+[1.917178] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-thermal_camera -- found version 8.2.0\n'}
+[1.917645] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-thermal_camera\n'}
+[1.918014] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8 -- found version 8.2.0\n'}
+[1.918650] (F450_description) StdoutLine: {'line': b'-- Searching for <gz-sensors8> component [wide_angle_camera]\n'}
+[1.921165] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.0\n'}
+[1.921648] (F450_description) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors8-wide_angle_camera\n'}
+[1.922594] (F450_description) StdoutLine: {'line': b'-- Looking for gz-rendering8 -- found version 8.2.0\n'}
+[1.923399] (F450_description) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[1.923712] (F450_description) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[1.944377] (F450_description) StdoutLine: {'line': b'-- Looking for gz-sim8 - found\n'}
+[1.944576] (F450_description) StdoutLine: {'line': b'\n'}
+[1.944778] (F450_description) StdoutLine: {'line': b'-- Compiling against Gazebo Harmonic\n'}
+[1.947198] (F450_description) StdoutLine: {'line': b'-- RapidJSON found. Headers: /usr/include\n'}
+[1.955598] (F450_description) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[1.956058] (F450_description) StdoutLine: {'line': b"-- Checking for modules 'gstreamer-1.0;gstreamer-app-1.0'\n"}
+[1.970446] (F450_description) StdoutLine: {'line': b'--   Found gstreamer-1.0, version 1.20.3\n'}
+[1.979382] (F450_description) StdoutLine: {'line': b'--   Found gstreamer-app-1.0, version 1.20.1\n'}
+[2.001940] (-) TimerEvent: {}
+[2.065673] (F450_description) StderrLine: {'line': b'WARNING: Package name "F450_description" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[2.080227] (F450_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.102029] (-) TimerEvent: {}
+[2.107723] (F450_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.109902] (F450_description) StdoutLine: {'line': b'-- Build files have been written to: /home/fwd/ros2_ws/src/F450_description/build/F450_description\n'}
+[2.121998] (F450_description) CommandEnded: {'returncode': 0}
+[2.123256] (F450_description) JobProgress: {'identifier': 'F450_description', 'progress': 'build'}
+[2.123697] (F450_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fwd/ros2_ws/src/F450_description/build/F450_description', '--', '-j8', '-l8'], 'cwd': '/home/fwd/ros2_ws/src/F450_description/build/F450_description', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'fwd'), ('GIO_MODULE_DIR', '/home/fwd/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fwd'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/fwd/ros2_ws/src/F450_description/build'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/167/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/fwd/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/167/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1985'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2ca968c8f5eed33adb47ace566ceb1f5'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/fwd/ros2_ws/src/F450_description/install:/home/fwd/ros2_ws/install:/home/fwd/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fwd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'fwd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/usr/lib/ccache:/home/fwd/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/fwd/.local/bin:/opt/ros/humble/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fwd/ardupilot/Tools/autotest:/home/fwd/ardupilot/Tools/autotest:/home/fwd/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/fwd:@/tmp/.ICE-unix/1985,unix/fwd:/tmp/.ICE-unix/1985'), ('GTK_EXE_PREFIX', '/snap/code/167/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5da2081e_4397_46ef_88b6_c5b288635ef8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/167/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a15c622f6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/fwd/snap/code/167/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/fwd/ros2_ws/install/sampleurdf:/home/fwd/ros2_ws/install/my_first_pkg:/home/fwd/ros2_ws/install/F450_description:/home/fwd/install/sampleurdf:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fwd/ros2_ws/src/F450_description/build/F450_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2ca968c8f5eed33adb47ace566ceb1f5'), ('XDG_DATA_DIRS', '/home/fwd/snap/code/167/.local/share:/home/fwd/snap/code/167:/snap/code/167/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fwd/ros2_ws/build/F450_description:/home/fwd/ros2_ws/install/F450_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fwd/ros2_ws/install/sampleurdf:/home/fwd/ros2_ws/install/my_first_pkg:/home/fwd/install/sampleurdf')]), 'shell': False}
+[2.173039] (F450_description) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/Util.cc.o\x1b[0m\n'}
+[2.173270] (F450_description) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/CameraZoomPlugin.dir/src/CameraZoomPlugin.cc.o\x1b[0m\n'}
+[2.174410] (F450_description) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/GstCameraPlugin.dir/src/GstCameraPlugin.cc.o\x1b[0m\n'}
+[2.174582] (F450_description) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/SocketUDP.cc.o\x1b[0m\n'}
+[2.174698] (F450_description) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ArduPilotPlugin.dir/src/ArduPilotPlugin.cc.o\x1b[0m\n'}
+[2.174823] (F450_description) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ParachutePlugin.dir/src/ParachutePlugin.cc.o\x1b[0m\n'}
+[2.202134] (-) TimerEvent: {}
+[2.207256] (F450_description) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libCameraZoomPlugin.so\x1b[0m\n'}
+[2.217334] (F450_description) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libParachutePlugin.so\x1b[0m\n'}
+[2.221459] (F450_description) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libArduPilotPlugin.so\x1b[0m\n'}
+[2.221766] (F450_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libGstCameraPlugin.so\x1b[0m\n'}
+[2.302365] (-) TimerEvent: {}
+[2.402681] (-) TimerEvent: {}
+[2.503018] (-) TimerEvent: {}
+[2.603410] (-) TimerEvent: {}
+[2.671924] (F450_description) StdoutLine: {'line': b'[100%] Built target ParachutePlugin\n'}
+[2.703508] (-) TimerEvent: {}
+[2.776673] (F450_description) StdoutLine: {'line': b'[100%] Built target GstCameraPlugin\n'}
+[2.803610] (-) TimerEvent: {}
+[2.832416] (F450_description) StdoutLine: {'line': b'[100%] Built target CameraZoomPlugin\n'}
+[2.903715] (-) TimerEvent: {}
+[2.918854] (F450_description) StdoutLine: {'line': b'[100%] Built target ArduPilotPlugin\n'}
+[2.931334] (F450_description) CommandEnded: {'returncode': 0}
+[2.968385] (F450_description) JobProgress: {'identifier': 'F450_description', 'progress': 'install'}
+[2.976217] (F450_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fwd/ros2_ws/src/F450_description/build/F450_description'], 'cwd': '/home/fwd/ros2_ws/src/F450_description/build/F450_description', 'env': OrderedDict([('LANGUAGE', 'en_IN:en'), ('USER', 'fwd'), ('GIO_MODULE_DIR', '/home/fwd/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fwd'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/fwd/ros2_ws/src/F450_description/build'), ('TERM_PROGRAM_VERSION', '1.92.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/167/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/fwd/snap/code/common/.cache/immodules/immodules.cache'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/167/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/167/usr/share/code/code'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1985'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2ca968c8f5eed33adb47ace566ceb1f5'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/fwd/ros2_ws/src/F450_description/install:/home/fwd/ros2_ws/install:/home/fwd/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'fwd'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'fwd'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/lib/ccache:/usr/lib/ccache:/usr/lib/ccache:/home/fwd/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/fwd/.local/bin:/opt/ros/humble/bin:/usr/lib/ccache:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/fwd/ardupilot/Tools/autotest:/home/fwd/ardupilot/Tools/autotest:/home/fwd/ardupilot/Tools/autotest'), ('SESSION_MANAGER', 'local/fwd:@/tmp/.ICE-unix/1985,unix/fwd:/tmp/.ICE-unix/1985'), ('GTK_EXE_PREFIX', '/snap/code/167/usr'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5da2081e_4397_46ef_88b6_c5b288635ef8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/167/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a15c622f6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/fwd/snap/code/167/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/fwd/ros2_ws/install/sampleurdf:/home/fwd/ros2_ws/install/my_first_pkg:/home/fwd/ros2_ws/install/F450_description:/home/fwd/install/sampleurdf:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fwd/ros2_ws/src/F450_description/build/F450_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2ca968c8f5eed33adb47ace566ceb1f5'), ('XDG_DATA_DIRS', '/home/fwd/snap/code/167/.local/share:/home/fwd/snap/code/167:/snap/code/167/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fwd/ros2_ws/build/F450_description:/home/fwd/ros2_ws/install/F450_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fwd/ros2_ws/install/sampleurdf:/home/fwd/ros2_ws/install/my_first_pkg:/home/fwd/install/sampleurdf')]), 'shell': False}
+[2.984447] (F450_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.984688] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/lib/F450_description/libArduPilotPlugin.so\n'}
+[2.988438] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/lib/F450_description/libParachutePlugin.so\n'}
+[2.991383] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/lib/F450_description/libCameraZoomPlugin.so\n'}
+[2.994311] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/lib/F450_description/libGstCameraPlugin.so\n'}
+[2.996322] (F450_description) StdoutLine: {'line': b'-- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/config\n'}
+[2.996595] (F450_description) StdoutLine: {'line': b'-- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/config/display.rviz\n'}
+[2.996663] (F450_description) StdoutLine: {'line': b'-- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/models\n'}
+[2.996728] (F450_description) StdoutLine: {'line': b'-- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/worlds\n'}
+[2.996785] (F450_description) StdoutLine: {'line': b'-- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/worlds/custom_world.sdf\n'}
+[2.996971] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/environment/F450_description.dsv\n'}
+[2.997059] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/environment/F450_description.sh\n'}
+[2.997118] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/ament_index/resource_index/package_run_dependencies/F450_description\n'}
+[2.997178] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/ament_index/resource_index/parent_prefix_path/F450_description\n'}
+[2.997301] (F450_description) StdoutLine: {'line': b'-- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/environment/ament_prefix_path.sh\n'}
+[2.997380] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/environment/ament_prefix_path.dsv\n'}
+[2.997467] (F450_description) StdoutLine: {'line': b'-- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/environment/path.sh\n'}
+[2.997545] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/environment/path.dsv\n'}
+[2.997651] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/local_setup.bash\n'}
+[2.997813] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/local_setup.sh\n'}
+[2.997981] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/local_setup.zsh\n'}
+[2.998140] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/local_setup.dsv\n'}
+[2.998382] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/package.dsv\n'}
+[2.998607] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/ament_index/resource_index/packages/F450_description\n'}
+[2.998776] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/cmake/F450_descriptionConfig.cmake\n'}
+[2.998932] (F450_description) StdoutLine: {'line': b'-- Installing: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/cmake/F450_descriptionConfig-version.cmake\n'}
+[2.999114] (F450_description) StdoutLine: {'line': b'-- Up-to-date: /home/fwd/ros2_ws/src/F450_description/install/F450_description/share/F450_description/package.xml\n'}
+[3.000982] (F450_description) CommandEnded: {'returncode': 0}
+[3.003810] (-) TimerEvent: {}
+[3.012663] (F450_description) JobEnded: {'identifier': 'F450_description', 'rc': 0}
+[3.013403] (-) EventReactorShutdown: {}

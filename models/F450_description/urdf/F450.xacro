@@ -1,0 +1,272 @@
+<?xml version="1.0" ?>
+<robot name="F450" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Include Files -->
+  <xacro:include filename="$(find F450_description)/urdf/materials.xacro" />
+  <xacro:include filename="$(find F450_description)/urdf/F450.trans" />
+  <xacro:include filename="$(find F450_description)/urdf/F450.gazebo" />
+
+  <!-- Base Link -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="-1.054264181030751e-07 0.0025919260853499893 -0.026708763818450765" rpy="0 0 0"/>
+      <mass value="2.1650499079872736"/>
+      <inertia ixx="0.024339" iyy="0.043382" izz="0.02453" ixy="0.0" iyz="-4e-06" ixz="-0.0"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file://$(find F450_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="silver"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file://$(find F450_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Gazebo Plugins for Base Link -->
+  <gazebo>
+    <plugin name="gz::sim::systems::JointStatePublisher" filename="gz-sim-joint-state-publisher-system"/>
+  </gazebo>
+
+  <!-- Propeller Links and Plugins -->
+  <link name="Prop_1_1">
+    <!-- Define link properties -->
+    <gazebo reference="Prop_1_1">
+      <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+        <a0>0.3</a0>
+        <alpha_stall>1.4</alpha_stall>
+        <cla>4.2500</cla>
+        <cda>0.10</cda>
+        <cma>0.0</cma>
+        <cla_stall>-0.025</cla_stall>
+        <cda_stall>0.0</cda_stall>
+        <cma_stall>0.0</cma_stall>
+        <area>0.002</area>
+        <air_density>1.2041</air_density>
+        <cp>0.084 0 0</cp>
+        <forward>0 1 0</forward>
+        <upward>0 0 1</upward>
+        <link_name>Prop_1_1</link_name>
+      </plugin>
+    </gazebo>
+  </link>
+
+  <link name="Prop_2_1">
+    <!-- Define link properties -->
+    <gazebo reference="Prop_2_1">
+      <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+        <a0>0.3</a0>
+        <alpha_stall>1.4</alpha_stall>
+        <cla>4.2500</cla>
+        <cda>0.10</cda>
+        <cma>0.0</cma>
+        <cla_stall>-0.025</cla_stall>
+        <cda_stall>0.0</cda_stall>
+        <cma_stall>0.0</cma_stall>
+        <area>0.002</area>
+        <air_density>1.2041</air_density>
+        <cp>-0.084 0 0</cp>
+        <forward>0 -1 0</forward>
+        <upward>0 0 1</upward>
+        <link_name>Prop_2_1</link_name>
+      </plugin>
+    </gazebo>
+  </link>
+
+  <link name="Prop_3_1">
+    <!-- Define link properties -->
+    <gazebo reference="Prop_3_1">
+      <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+        <a0>0.3</a0>
+        <alpha_stall>1.4</alpha_stall>
+        <cla>4.2500</cla>
+        <cda>0.10</cda>
+        <cma>0.0</cma>
+        <cla_stall>-0.025</cla_stall>
+        <cda_stall>0.0</cda_stall>
+        <cma_stall>0.0</cma_stall>
+        <area>0.002</area>
+        <air_density>1.2041</air_density>
+        <cp>0.084 0 0</cp>
+        <forward>0 1 0</forward>
+        <upward>0 0 1</upward>
+        <link_name>Prop_3_1</link_name>
+      </plugin>
+    </gazebo>
+  </link>
+
+  <link name="Prop_4_1">
+    <!-- Define link properties -->
+    <gazebo reference="Prop_4_1">
+      <plugin filename="gz-sim-lift-drag-system" name="gz::sim::systems::LiftDrag">
+        <a0>0.3</a0>
+        <alpha_stall>1.4</alpha_stall>
+        <cla>4.2500</cla>
+        <cda>0.10</cda>
+        <cma>0.0</cma>
+        <cla_stall>-0.025</cla_stall>
+        <cda_stall>0.0</cda_stall>
+        <cma_stall>0.0</cma_stall>
+        <area>0.002</area>
+        <air_density>1.2041</air_density>
+        <cp>-0.084 0 0</cp>
+        <forward>0 -1 0</forward>
+        <upward>0 0 1</upward>
+        <link_name>Prop_4_1</link_name>
+      </plugin>
+    </gazebo>
+  </link>
+
+  <!-- Joints Configuration -->
+  <joint name="Revolute 1" type="continuous">
+    <origin xyz="0.159099 0.050384 0.132271" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="Prop_1_1"/>
+    <axis xyz="0.0 1.0 0.0"/>
+    <gazebo>
+      <plugin filename="gz-sim-apply-joint-force-system" name="gz::sim::systems::ApplyJointForce">
+        <joint_name>Revolute 1</joint_name>
+      </plugin>
+    </gazebo>
+  </joint>
+
+  <joint name="Revolute 2" type="continuous">
+    <origin xyz="0.159099 0.050384 -0.185927" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="Prop_2_1"/>
+    <axis xyz="0.0 1.0 0.0"/>
+    <gazebo>
+      <plugin filename="gz-sim-apply-joint-force-system" name="gz::sim::systems::ApplyJointForce">
+        <joint_name>Revolute 2</joint_name>
+      </plugin>
+    </gazebo>
+  </joint>
+
+  <joint name="Revolute 3" type="continuous">
+    <origin xyz="-0.159099 0.050384 -0.185927" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="Prop_3_1"/>
+    <axis xyz="0.0 1.0 0.0"/>
+    <gazebo>
+      <plugin filename="gz-sim-apply-joint-force-system" name="gz::sim::systems::ApplyJointForce">
+        <joint_name>Revolute 3</joint_name>
+      </plugin>
+    </gazebo>
+  </joint>
+
+  <joint name="Revolute 4" type="continuous">
+    <origin xyz="-0.159099 0.050384 0.132271" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="Prop_4_1"/>
+    <axis xyz="0.0 1.0 0.0"/>
+    <gazebo>
+      <plugin filename="gz-sim-apply-joint-force-system" name="gz::sim::systems::ApplyJointForce">
+        <joint_name>Revolute 4</joint_name>
+      </plugin>
+    </gazebo>
+  </joint>
+  
+    <plugin name="ArduPilotPlugin"
+      filename="ArduPilotPlugin">
+      <!-- Port settings -->
+      <fdm_addr>127.0.0.1</fdm_addr>
+      <fdm_port_in>9002</fdm_port_in>
+      <connectionTimeoutMaxCount>5</connectionTimeoutMaxCount>
+      <lock_step>1</lock_step>
+
+      <!-- Frame conventions
+        Require by ArduPilot: change model and gazebo from XYZ to XY-Z coordinates
+      -->
+      <modelXYZToAirplaneXForwardZDown degrees="true">0 0 0 180 0 0</modelXYZToAirplaneXForwardZDown>
+      <gazeboXYZToNED degrees="true">0 0 0 180 0 90</gazeboXYZToNED>
+
+      <!-- Sensors -->
+      <imuName>iris_with_standoffs::imu_link::imu_sensor</imuName>
+
+      <!--
+          incoming control command [0, 1]
+          so offset it by 0 to get [0, 1]
+          and divide max target by 1.
+          offset = 0
+          multiplier = 838 max rpm / 1 = 838
+        -->
+      <control channel="0">
+        <jointName>Revolute 1</jointName>
+        <useForce>1</useForce>
+        <multiplier>838</multiplier>
+        <offset>0</offset>
+        <servo_min>1100</servo_min>
+        <servo_max>1900</servo_max>
+        <type>VELOCITY</type>
+        <p_gain>0.20</p_gain>
+        <i_gain>0</i_gain>
+        <d_gain>0</d_gain>
+        <i_max>0</i_max>
+        <i_min>0</i_min>
+        <cmd_max>2.5</cmd_max>
+        <cmd_min>-2.5</cmd_min>
+        <controlVelocitySlowdownSim>1</controlVelocitySlowdownSim>
+      </control>
+
+      <control channel="1">
+        <jointName>Revolute 2</jointName>
+        <useForce>1</useForce>
+        <multiplier>838</multiplier>
+        <offset>0</offset>
+        <servo_min>1100</servo_min>
+        <servo_max>1900</servo_max>
+        <type>VELOCITY</type>
+        <p_gain>0.20</p_gain>
+        <i_gain>0</i_gain>
+        <d_gain>0</d_gain>
+        <i_max>0</i_max>
+        <i_min>0</i_min>
+        <cmd_max>2.5</cmd_max>
+        <cmd_min>-2.5</cmd_min>
+        <controlVelocitySlowdownSim>1</controlVelocitySlowdownSim>
+      </control>
+
+      <control channel="2">
+        <jointName>Revolute 3</jointName>
+        <useForce>1</useForce>
+        <multiplier>-838</multiplier>
+        <offset>0</offset>
+        <servo_min>1100</servo_min>
+        <servo_max>1900</servo_max>
+        <type>VELOCITY</type>
+        <p_gain>0.20</p_gain>
+        <i_gain>0</i_gain>
+        <d_gain>0</d_gain>
+        <i_max>0</i_max>
+        <i_min>0</i_min>
+        <cmd_max>2.5</cmd_max>
+        <cmd_min>-2.5</cmd_min>
+        <controlVelocitySlowdownSim>1</controlVelocitySlowdownSim>
+      </control>
+
+      <control channel="3">
+        <jointName>Revolute 4</jointName>
+        <useForce>1</useForce>
+        <multiplier>-838</multiplier>
+        <offset>0</offset>
+        <servo_min>1100</servo_min>
+        <servo_max>1900</servo_max>
+        <type>VELOCITY</type>
+        <p_gain>0.20</p_gain>
+        <i_gain>0</i_gain>
+        <d_gain>0</d_gain>
+        <i_max>0</i_max>
+        <i_min>0</i_min>
+        <cmd_max>2.5</cmd_max>
+        <cmd_min>-2.5</cmd_min>
+        <controlVelocitySlowdownSim>1</controlVelocitySlowdownSim>
+      </control>
+    </plugin>
+
+</robot>
+

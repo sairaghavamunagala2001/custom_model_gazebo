@@ -1,0 +1,150 @@
+[0mBuilding F450_description as an `ament_cmake` project.[0m
+-- Looking for gz-common5 -- found version 5.6.0
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.0
+-- Searching for dependencies of gz-utils2
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Checking for module 'uuid'
+--   Found uuid, version 2.37.2
+-- Looking for gz-common5 - found
+
+-- Looking for gz-rendering8 -- found version 8.2.0
+-- Searching for dependencies of gz-rendering8
+-- Looking for gz-math7 -- found version 7.5.1
+-- Searching for dependencies of gz-math7
+-- Looking for gz-utils2 -- found version 2.2.0
+-- Searching for <gz-math7> component [eigen3]
+-- Looking for gz-math7-eigen3 -- found version 7.5.1
+-- Searching for dependencies of gz-math7-eigen3
+-- Looking for gz-common5 -- found version 5.6.0
+-- Searching for dependencies of gz-common5
+-- Looking for gz-utils2 -- found version 2.2.0
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Searching for <gz-common5> component [graphics]
+-- Looking for gz-common5-graphics -- found version 5.6.0
+-- Searching for dependencies of gz-common5-graphics
+-- Looking for gz-math7 -- found version 7.5.1
+-- Searching for <gz-common5> component [events]
+-- Looking for gz-common5-events -- found version 5.6.0
+-- Searching for dependencies of gz-common5-events
+-- Looking for gz-math7 -- found version 7.5.1
+-- Searching for <gz-common5> component [geospatial]
+-- Looking for gz-common5-geospatial -- found version 5.6.0
+-- Searching for dependencies of gz-common5-geospatial
+-- Looking for gz-math7 -- found version 7.5.1
+-- Looking for gz-common5 -- found version 5.6.0
+-- Looking for gz-plugin2 -- found version 2.0.3
+-- Searching for dependencies of gz-plugin2
+-- Looking for gz-utils2 -- found version 2.2.0
+-- Searching for dependencies of gz-utils2
+-- Searching for <gz-utils2> component [cli]
+-- Looking for gz-utils2-cli -- found version 2.2.0
+-- Searching for dependencies of gz-utils2-cli
+-- Searching for <gz-plugin2> component [all]
+-- Looking for all libraries of gz-plugin2 -- found version 2.0.3
+-- Looking for gz-plugin2 -- found version 2.0.3
+-- Looking for gz-plugin2-loader -- found version 2.0.3
+-- Searching for dependencies of gz-plugin2-loader
+-- Looking for gz-plugin2-register -- found version 2.0.3
+-- Searching for dependencies of gz-plugin2-register
+-- Looking for gz-utils2 -- found version 2.2.0
+-- Looking for gz-rendering8 - found
+
+[33mCMake Warning at /usr/share/cmake/gz-cmake3/cmake3/GzFindPackage.cmake:243 (find_package):
+  By not providing "Findgz-sim8.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "gz-sim8", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "gz-sim8" with any
+  of the following names:
+
+    gz-sim8Config.cmake
+    gz-sim8-config.cmake
+
+  Add the installation prefix of "gz-sim8" to CMAKE_PREFIX_PATH or set
+  "gz-sim8_DIR" to a directory containing one of the above files.  If
+  "gz-sim8" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  CMakeLists.txt:31 (gz_find_package)
+
+[0m
+-- Looking for gz-sim8 - not found
+
+-- Compiling against Gazebo Harmonic
+-- RapidJSON found. Headers: /usr/include
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:63 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 3.05
+-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+-- Found assimp: /usr/include;/usr/include (found version "5.2.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Searching for dependencies of ignition-math6
+[33mCMake Warning at /usr/share/cmake/gz-cmake3/cmake3/GzPkgConfig.cmake:203 (message):
+  ign_pkg_config_entry is deprecated, use gz_pkg_config_entry instead.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/ignition-math6/ignition-math6-config.cmake:182 (ign_pkg_config_entry)
+  /usr/lib/x86_64-linux-gnu/cmake/sdformat9/sdformat9-config.cmake:60 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:208 (find_package)
+  CMakeLists.txt:63 (find_package)
+
+[0m
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.15.1
+-- Looking for ignition-transport8 -- found version 8.2.1
+-- Searching for dependencies of ignition-transport8
+[31mCMake Error at /usr/lib/x86_64-linux-gnu/cmake/ignition-transport8/ignition-transport8-config.cmake:92 (find_package):
+  By not providing "FindIgnProtobuf.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "IgnProtobuf", but CMake did not find one.
+
+  Could not find a package configuration file provided by "IgnProtobuf"
+  (requested version 3) with any of the following names:
+
+    IgnProtobufConfig.cmake
+    ignprotobuf-config.cmake
+
+  Add the installation prefix of "IgnProtobuf" to CMAKE_PREFIX_PATH or set
+  "IgnProtobuf_DIR" to a directory containing one of the above files.  If
+  "IgnProtobuf" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:235 (find_package)
+  CMakeLists.txt:63 (find_package)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/fwd/ros2_ws/src/F450_description/build/F450_description/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:444: cmake_check_build_system] Error 1

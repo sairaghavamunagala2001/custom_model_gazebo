@@ -1,0 +1,9 @@
+[0.010s] Invoking command in '/home/fwd/ros2_ws/src/F450_description/build/F450_description': /usr/bin/cmake /home/fwd/ros2_ws/src/F450_description -DCMAKE_INSTALL_PREFIX=/home/fwd/ros2_ws/src/F450_description/install/F450_description
+[0.020s] [31mCMake Error at CMakeLists.txt:19:
+[0.020s]   Parse error.  Expected "(", got unquoted argument with text
+[0.020s]   "ros-humble-gazebo-dev".
+[0.020s] 
+[0.020s] [0m
+[0.020s] -- Configuring incomplete, errors occurred!
+[0.020s] See also "/home/fwd/ros2_ws/src/F450_description/build/F450_description/CMakeFiles/CMakeOutput.log".
+[0.022s] Invoked command in '/home/fwd/ros2_ws/src/F450_description/build/F450_description' returned '1': /usr/bin/cmake /home/fwd/ros2_ws/src/F450_description -DCMAKE_INSTALL_PREFIX=/home/fwd/ros2_ws/src/F450_description/install/F450_description

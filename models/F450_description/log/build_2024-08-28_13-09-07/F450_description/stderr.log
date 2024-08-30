@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:19:
+  Parse error.  Expected "(", got unquoted argument with text
+  "ros-humble-gazebo-dev".
+
+[0m
