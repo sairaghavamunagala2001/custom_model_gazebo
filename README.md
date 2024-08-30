@@ -93,7 +93,7 @@ Ensure the `GZ_VERSION` environment variable is set to either
 Clone the repo and build:
 
 ```bash
-git clone https://github.com/ArduPilot/ardupilot_gazebo
+git clone https://github.com/sairaghavamunagala2001/custom_model_gazebo
 cd ardupilot_gazebo
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=RelWithDebInfo
