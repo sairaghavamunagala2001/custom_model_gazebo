@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<sdf version="1.8">
+  <!-- <world name="car_world">
+        <physics name="1ms" type="ignored">
+            <max_step_size>0.001</max_step_size>
+            <real_time_factor>1.0</real_time_factor>
+        </physics>
+        <plugin
+            filename="gz-sim-physics-system"
+            name="gz::sim::systems::Physics">
+        </plugin>
+        <plugin
+            filename="gz-sim-user-commands-system"
+            name="gz::sim::systems::UserCommands">
+        </plugin>
+        <plugin
+            filename="gz-sim-scene-broadcaster-system"
+            name="gz::sim::systems::SceneBroadcaster">
+        </plugin>
+
+        <light type="directional" name="sun">
+            <cast_shadows>true</cast_shadows>
+            <pose>0 0 10 0 0 0</pose>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.2 0.2 0.2 1</specular>
+            <attenuation>
+                <range>1000</range>
+                <constant>0.9</constant>
+                <linear>0.01</linear>
+                <quadratic>0.001</quadratic>
+            </attenuation>
+            <direction>-0.5 0.1 -0.9</direction>
+        </light>
+
+        <model name="ground_plane">
+            <static>true</static>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                        </plane>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                    <geometry>
+                        <plane>
+                            <normal>0 0 1</normal>
+                            <size>100 100</size>
+                        </plane>
+                    </geometry>
+                    <material>
+                        <ambient>0.8 0.8 0.8 1</ambient>
+                        <diffuse>0.8 0.8 0.8 1</diffuse>
+                        <specular>0.8 0.8 0.8 1</specular>
+                    </material>
+                </visual>
+            </link>
+        </model> -->
+  <model name="custom_drone">
+    <pose>0 0 0 0 0 0</pose>
+    <link name="base_link">
+      <inertial>
+        <origin xyz="-1.054264181030751e-07 0.0025919260853499893 -0.026708763818450765"
+          rpy="0 0 0" />
+        <pose>-1.054264181030751e-07 0.0025919260853499893 -0.026708763818450765 0 0 0</pose>
+        <mass>2.1650499079872736</mass>
+        <inertia>
+
+          <ixx>0.024339</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.043382</iyy>
+          <iyz>-4e-06</iyz>
+          <izz>0.02453</izz>
+        </inertia>
+      </inertial>
+      <visual name="base_visual">
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh>
+            <uri>file:///home/fwd/Desktop/custom_sdf/meshes/base_link.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <material name="silver" />
+        <self_collide>0</self_collide>
+      </visual>
+      <collision name="base_collison">
+        <origin xyz="0 0 0" rpy="0 0 0" />
+        <geometry>
+          <mesh>
+            <uri>=file:///home/fwd/Desktop/custom_sdf/meshes/base_link.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <self_collide>true</self_collide>
+      <gravity>true</gravity>
+    </link>
+    <!-- IMU LINK -->
+    <link name='imu_link'>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.15</mass>
+        <inertia>
+          <ixx>0.00001</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00002</iyy>
+          <iyz>0</iyz>
+          <izz>0.00002</izz>
+        </inertia>
+      </inertial>
+      <sensor name="imu_sensor" type="imu">
+        <pose degrees="true">0 0 0 180 0 0</pose>
+        <always_on>1</always_on>
+        <update_rate>1000.0</update_rate>
+      </sensor>
+    </link>
+    <joint name='imu_joint' type='revolute'>
+      <child>imu_link</child>
+      <parent>base_link</parent>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>0</lower>
+          <upper>0</upper>
+          <effort>0</effort>
+          <velocity>0</velocity>
+        </limit>
+        <dynamics>
+          <damping>1.0</damping>
+        </dynamics>
+      </axis>
+    </joint>
+    <!-- Rotor 1 -->
+    <link name="Prop_1_1">
+      <pose>2.5766354744272135e-08 0.005337611696938263 -1.0046815390740704e-07 0 0 0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <origin xyz="2.5766354744272135e-08 0.005337611696938263 -1.0046815390740704e-07"
+          rpy="0 0 0" />
+
+        <mass value="0.14132994757152942" />
+        <inertia ixx="5e-06" iyy="0.000527" izz="0.000523" ixy="-0.0" iyz="0.0" ixz="-2e-06" />
+      </inertial>
+      <visual name="Prop_1_1_visual">
+        <pose>0 0 0 0 0 0</pose>
+        <origin xyz="-0.159099 -0.050384 -0.132271" rpy="0 0 0" />
+        <geometry>
+          <mesh>
+            <uri>file:///home/fwd/Desktop/custom_sdf/meshes/Prop_1_1.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <self_collide>true</self_collide>
+        <!-- <material name="silver"/> -->
+        <material>
+          <ambient>0 0 1</ambient>
+          <diffuse>0 0 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.5</metalness>
+              <roughness>0.5</roughness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <collision name="Prop_1_1_collison">
+        <pose>0 0 0 0 0 0</pose>
+        <origin xyz="-0.159099 -0.050384 -0.132271" rpy="0 0 0" />
+        <geometry>
+          <mesh>
+            <uri>file:///home/fwd/Desktop/custom_sdf/meshes/Prop_1_1.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <gravity>true</gravity>
+    </link>
+    <joint name="Revolute 1" type="revolute">
+      <origin xyz="0.159099 0.050384 0.132271" rpy="0 0 0" />
+      <child>Prop_1_1</child>
+      <parent>base_link</parent>
+      <!-- <axis xyz="0 1 0"/> -->
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <damping>0.004</damping>
+        </dynamics>
+      </axis>
+      <physics>
+        <ode>
+          <implicit_spring_damper>1</implicit_spring_damper>
+        </ode>
+      </physics>
+    </joint>
+
+    <!-- Rotor 2 -->
+    <link name="Prop_2_1">
+      <inertial>
+        <origin xyz="-1.818072214998523e-08 0.005335376367456207 -1.4559709513028984e-07"
+          rpy="0 0 0" />
+        <pose>-1.818072214998523e-08 0.005335376367456207 -1.4559709513028984e-07 0 0 0</pose>
+        <mass value="0.14090883238929464" />
+        <inertia ixx="5e-06" iyy="0.000527" izz="0.000523" ixy="-0.0" iyz="0.0" ixz="-2e-06" />
+      </inertial>
+      <visual name="Prop_2_1_visual">
+        <origin xyz="-0.159099 -0.050384 0.185927" rpy="0 0 0" />
+        <geometry>
+          <mesh>
+            <uri>file:///home/fwd/Desktop/custom_sdf/meshes/Prop_2_1.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <!-- <material name="silver"/> -->
+        <material>
+          <ambient>0 0 1</ambient>
+          <diffuse>0 0 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.5</metalness>
+              <roughness>0.5</roughness>
+            </metal>
+          </pbr>
+        </material>
+        <self_collide>true</self_collide>
+      </visual>
+      <collision name="Prop_2_1_collison">
+        <origin xyz="-0.159099 -0.050384 0.185927" rpy="0 0 0" />
+        <geometry>
+          <mesh>
+            <uri>file:///home/fwd/Desktop/custom_sdf/meshes/Prop_2_1.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <self_collide>true</self_collide>
+      </collision>
+      <gravity>true</gravity>
+    </link>
+    <joint name="Revolute 2" type="revolute">
+      <origin xyz="0.159099 0.050384 -0.185927" rpy="0 0 0" />
+      <child>Prop_2_1</child>
+      <parent>base_link</parent>
+      <!-- <axis xyz="0 1 0"/> -->
+      <axis>
+        <xyz>0 1 0</xyz>
+        <!-- <limit>
+                      <lower>-1e+16</lower>
+                      <upper>1e+16</upper>
+                    </limit>
+                    <dynamics>
+                      <damping>0.004</damping>
+                    </dynamics> -->
+      </axis>
+    </joint>
+
+    <!-- Rotor 3 -->
+    <link name="Prop_3_1">
+      <inertial>
+        <origin xyz="-2.5766359240675385e-08 0.005337611696938541 -1.520021011558459e-07"
+          rpy="0 0 0" />
+        <pose>-2.5766359240675385e-08 0.005337611696938541 -1.520021011558459e-07 0 0 0</pose>
+        <mass value="0.14132994757152942" />
+        <inertia ixx="5e-06" iyy="0.000527" izz="0.000523" ixy="-0.0" iyz="0.0" ixz="-2e-06" />
+      </inertial>
+      <visual name="Prop_3_1_visual">
+        <origin xyz="0.159099 -0.050384 0.185927" rpy="0 0 0" />
+        <geometry>
+          <mesh>
+            <uri>file:///home/fwd/Desktop/custom_sdf/meshes/Prop_3_1.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <!-- <material name="silver"/> -->
+        <material>
+          <ambient>0 0 1</ambient>
+          <diffuse>0 0 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.5</metalness>
+              <roughness>0.5</roughness>
+            </metal>
+          </pbr>
+        </material>
+        <self_collide>true</self_collide>
+      </visual>
+      <collision name="Prop_3_1_collison">
+        <origin xyz="0.159099 -0.050384 0.185927" rpy="0 0 0" />
+        <geometry>
+          <mesh>
+            <uri>file:///home/fwd/Desktop/custom_sdf/meshes/Prop_3_1.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <gravity>true</gravity>
+    </link>
+    <joint name="Revolute 3" type="revolute">
+      <origin xyz="-0.159099 0.050384 -0.185927" rpy="0 0 0" />
+      <child>Prop_3_1</child>
+      <parent>base_link</parent>
+      <!-- <axis xyz="0 1 0"/> -->
+      <axis>
+        <xyz>0 1 0</xyz>
+        <!-- <limit>
+                      <lower>-1e+16</lower>
+                      <upper>1e+16</upper>
+                    </limit>
+                    <dynamics>
+                      <damping>0.004</damping>
+                    </dynamics> -->
+      </axis>
+    </joint>
+
+    <!-- Rotor 4 -->
+    <link name="Prop_4_1">
+      <inertial>
+        <origin xyz="-6.971467014782462e-08 0.005335376367455964 -9.406438186698729e-08" rpy="0 0 0" />
+        <pose>-6.971467014782462e-08 0.005335376367455964 -9.406438186698729e-08 0 0 0</pose>
+        <mass value="0.14090883238929464" />
+        <inertia ixx="5e-06" iyy="0.000527" izz="0.000523" ixy="-0.0" iyz="0.0" ixz="-2e-06" />
+      </inertial>
+      <visual name="Prop_4_1_visual">
+        <origin xyz="0.159099 -0.050384 -0.132271" rpy="0 0 0" />
+        <geometry>
+          <mesh>
+            <uri>file:///home/fwd/Desktop/custom_sdf/meshes/Prop_4_1.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <!-- <material name="silver"/> -->
+        <material>
+          <ambient>0 0 1</ambient>
+          <diffuse>0 0 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.5</metalness>
+              <roughness>0.5</roughness>
+            </metal>
+          </pbr>
+        </material>
+        <self_collide>true</self_collide>
+      </visual>
+      <collision name="Prop_4_1_collison">
+        <origin xyz="0.159099 -0.050384 -0.132271" rpy="0 0 0" />
+        <geometry>
+          <mesh>
+            <uri>file:///home/fwd/Desktop/custom_sdf/meshes/Prop_3_1.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <gravity>true</gravity>
+    </link>
+    <joint name="Revolute 4" type="revolute">
+      <origin xyz="-0.159099 0.050384 -0.185927" rpy="0 0 0" />
+      <child>Prop_4_1</child>
+      <parent>base_link</parent>
+      <!-- <axis xyz="0 1 0"/> -->
+      <axis>
+        <xyz>0 1 0</xyz>
+        <!-- <limit>
+                      <lower>-1e+16</lower>
+                      <upper>1e+16</upper>
+                    </limit>
+                    <dynamics>
+                      <damping>0.004</damping>
+                    </dynamics> -->
+      </axis>
+    </joint>
+
+  </model>
+  <!-- </world> -->
+</sdf>
